@@ -1,0 +1,15 @@
+#Extended file properties defined by DbVisualizer
+#Sun Nov 06 22:53:52 CET 2022
+file.comment=
+last.database_type=PostgreSQL
+last.execution_success_count=0
+last.execution_error_count=1
+exec.schema=public
+last.sql_preview=select * from team;
+exec.catalog=carRacingLeague
+last.affected_row_count=0
+exec.connection=0
+file.encoding=Cp1252
+last.execution_count=1
+last.elapsed_time=0.016
+last.execution_time=1667771632068

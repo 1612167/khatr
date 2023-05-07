@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><LayoutPersistence>
+    <DockableBarManager frameState="6" persistenceName="0" version="20">
+        <UndockedBounds height="38" width="133" x="0" y="0"/>
+        <DockableBarContext currentDockSide="1" currentMode="2" dockId="0" dockedHeight="0" dockedWidth="0" initIndex="1" initMode="2" initPosition="1" initSide="1" key="Main Toolbar">
+            <DockableBarPreviousState dockId="0" fcId="0" mode="2" newRow="1" row="0" side="1" start="0" type="close"/>
+        </DockableBarContext>
+        <DockableBarContext currentDockSide="1" currentMode="2" dockId="0" dockedHeight="0" dockedWidth="0" initIndex="2" initMode="2" initPosition="1" initSide="1" key="Favorites Toolbar">
+            <DockableBarPreviousState dockId="0" fcId="0" mode="2" newRow="1" row="1" side="1" start="0" type="close"/>
+        </DockableBarContext>
+        <DockableBarContainer side="1">
+            <DockableBarList>
+                <DockableBarItem start="0">
+                    <DockableBar key="Main Toolbar" preferredRowCount="0"/>
+                </DockableBarItem>
+            </DockableBarList>
+            <DockableBarList>
+                <DockableBarItem start="0">
+                    <DockableBar key="Favorites Toolbar" preferredRowCount="0"/>
+                </DockableBarItem>
+            </DockableBarList>
+        </DockableBarContainer>
+    </DockableBarManager>
+    <DockingManager activeFrame="databases" frameState="6" persistenceName="1" version="20">
+        <Bounds height="838" width="1550" x="0" y="0"/>
+        <DockContext autohideHeight="0" autohideWidth="200" available="1" canMode="15" currentDockSide="8" currentMode="2" dockId="45790" dockedHeight="0" dockedWidth="0" initAutohideHeight="200" initAutohideWidth="200" initIndex="0" initMode="4" initPosition="1" initSide="8" key="favorites">
+            <UndockedBounds height="500" width="800" x="-1" y="-1"/>
+            <InitUndockedBounds height="500" width="800" x="-1" y="-1"/>
+            <DockPreviousState dockId="45790" fcId="0" index="0" mode="2" rootId="0" side="8" type="close">
+                <DockParentState ccId="0" dockId="0" orientation="0">
+                    <DockChild dockId="45790"/>
+                </DockParentState>
+            </DockPreviousState>
+            <DockPreviousState dockId="45790" fcId="856" index="0" mode="4" rootId="2" side="8" type="autohide">
+                <Bounds height="712" width="1512" x="0" y="0"/>
+                <DockChild dockId="45790"/>
+                <DockParentState ccId="56628" dockId="856" orientation="1">
+                    <DockChild dockId="856"/>
+                    <DockChild dockId="34749"/>
+                </DockParentState>
+            </DockPreviousState>
+        </DockContext>
+        <DockContext autohideHeight="0" autohideWidth="265" available="1" canMode="15" currentDockSide="8" currentMode="4" dockId="56149" dockedHeight="543" dockedWidth="438" initAutohideHeight="200" initAutohideWidth="200" initIndex="0" initMode="4" initPosition="1" initSide="8" key="databases">
+            <UndockedBounds height="500" width="800" x="-1" y="-1"/>
+            <InitUndockedBounds height="500" width="800" x="-1" y="-1"/>
+            <DockPreviousState dockId="56149" fcId="856" index="0" mode="4" rootId="2" side="8" type="close">
+                <Bounds height="712" width="1512" x="0" y="0"/>
+                <DockChild dockId="56149"/>
+                <DockChild dockId="43770"/>
+                <DockParentState ccId="56628" dockId="856" orientation="1">
+                    <DockChild dockId="856"/>
+                    <DockChild dockId="34749"/>
+                </DockParentState>
+            </DockPreviousState>
+            <DockPreviousState dockId="56149" fcId="856" index="0" mode="4" rootId="2" side="8" type="autohide">
+                <Bounds height="712" width="1512" x="0" y="0"/>
+                <DockChild dockId="56149"/>
+                <DockChild dockId="43770"/>
+                <DockParentState ccId="56628" dockId="856" orientation="1">
+                    <DockChild dockId="856"/>
+                    <DockChild dockId="34749"/>
+                </DockParentState>
+            </DockPreviousState>
+        </DockContext>
+        <DockContext autohideHeight="0" autohideWidth="265" available="1" canMode="15" currentDockSide="8" currentMode="4" dockId="43770" dockedHeight="0" dockedWidth="0" initAutohideHeight="200" initAutohideWidth="200" initIndex="0" initMode="4" initPosition="1" initSide="8" key="scripts">
+            <UndockedBounds height="500" width="800" x="-1" y="-1"/>
+            <InitUndockedBounds height="500" width="800" x="-1" y="-1"/>
+            <DockPreviousState dockId="43770" fcId="856" index="0" mode="4" rootId="2" side="8" type="close">
+                <Bounds height="712" width="1512" x="0" y="0"/>
+                <DockChild dockId="56149"/>
+                <DockChild dockId="43770"/>
+                <DockParentState ccId="56628" dockId="856" orientation="1">
+                    <DockChild dockId="856"/>
+                    <DockChild dockId="34749"/>
+                </DockParentState>
+            </DockPreviousState>
+            <DockPreviousState dockId="43770" fcId="856" index="0" mode="4" rootId="2" side="8" type="autohide">
+                <Bounds height="712" width="1512" x="0" y="0"/>
+                <DockChild dockId="43770"/>
+                <DockParentState ccId="56628" dockId="856" orientation="1">
+                    <DockChild dockId="856"/>
+                    <DockChild dockId="34749"/>
+                </DockParentState>
+            </DockPreviousState>
+        </DockContext>
+        <ContainerContainer dockId="56628" initiallyEven="0" orientation="1" proportionLayout="0">
+            <FrameContainer dockId="856" preferredHeight="576" preferredWidth="438" selectedIndex="0">
+                <DockableFrame key="databases"/>
+                <DockableFrame key="scripts"/>
+            </FrameContainer>
+            <ContainerContainer dockId="34749" initiallyEven="0" orientation="0" preferredHeight="233" preferredWidth="1066" proportionLayout="0">
+                <Workspace acceptDockableFrame="0"/>
+            </ContainerContainer>
+        </ContainerContainer>
+        <AutoHideContainer side="3"/>
+        <AutoHideContainer side="7">
+            <SidePaneGroup selectedIndex="0">
+                <SidePaneItem>
+                    <DockableFrame key="favorites"/>
+                </SidePaneItem>
+            </SidePaneGroup>
+        </AutoHideContainer>
+        <AutoHideContainer side="5"/>
+        <AutoHideContainer side="1"/>
+    </DockingManager>
+</LayoutPersistence>

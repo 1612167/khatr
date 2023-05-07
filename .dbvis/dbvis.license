@@ -1,0 +1,11 @@
+# DbVisualizer license key
+dbvis.license.product        = DbVisualizer
+dbvis.license.edition        = Personal
+dbvis.license.id             = 2524076180 / #1
+dbvis.license.name           = Poonam Gavri Shanker
+dbvis.license.org            = Poonam Gavri Shanker
+dbvis.license.activation     = 2022-11-20
+dbvis.license.expire         = 2023-11-21
+dbvis.license.upgrade.expire = 2023-11-21
+dbvis.license.seal           = MC0CFQCTKryFBpnk9Vid18ZnnOlWWch80AIUJwsx5w/UjX2p8Q1WCJ7IfvjI0Gk=
+dbvis.license.version        = 5.*

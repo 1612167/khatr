@@ -1,0 +1,34 @@
+show dbs
+use test
+show dbs
+use mydb
+show dbs
+use client
+db.createCollection('users');
+show dbs
+db.client.insert({fname:"poonam",lname:"khatri"});
+show collections;
+db.client.find();
+db.client.find().pretty();
+db.client.insert({fname:"sara",lname:"shaiq"});
+db.client.find().pretty();
+db.client.insert({fname:"shaheer",lname:"siddiqui"});
+db.client.find().pretty();
+drop client;
+drop collection client;
+drop collection client
+drop Collection client;
+show collections
+db.client.drop();
+show collections;
+db.users.insert({fname:"shaheer",lname:"siddiqui"});
+db.users.insert({fname:"faizan",lname:"siddiqui"});
+db.users.find().pretty();
+show db
+show dbs
+use client
+show
+show collection
+show cleint
+db.collection
+db.users.find()

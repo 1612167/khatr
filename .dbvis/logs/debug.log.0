@@ -1,0 +1,2541 @@
+2022-10-24 07:09:02.401 INFO   110 [AWT-EventQueue-0 - e.initialize] DbVisualizer: STARTING
+2022-10-24 07:09:02.429 CONFIG 110 [AWT-EventQueue-0 - e.b] Product: DbVisualizer 14.0.1 (build: 3540)
+2022-10-24 07:09:02.429 CONFIG 110 [AWT-EventQueue-0 - e.b] OS: Windows 10
+2022-10-24 07:09:02.429 CONFIG 110 [AWT-EventQueue-0 - e.b] OS Version: 10.0
+2022-10-24 07:09:02.430 CONFIG 110 [AWT-EventQueue-0 - e.b] OS Arch: amd64
+2022-10-24 07:09:02.430 CONFIG 110 [AWT-EventQueue-0 - e.b] Java Version: 17.0.4.1
+2022-10-24 07:09:02.430 CONFIG 110 [AWT-EventQueue-0 - e.b] Java VM: OpenJDK 64-Bit Server VM
+2022-10-24 07:09:02.431 CONFIG 110 [AWT-EventQueue-0 - e.b] Java Vendor: Eclipse Adoptium
+2022-10-24 07:09:02.432 CONFIG 110 [AWT-EventQueue-0 - e.b] Java Home: c:\program files\dbvisualizer\jre
+2022-10-24 07:09:02.432 CONFIG 110 [AWT-EventQueue-0 - e.b] DbVis Home: C:\Program Files\DbVisualizer
+2022-10-24 07:09:02.432 CONFIG 110 [AWT-EventQueue-0 - e.b] User Home: C:\Users\khatr
+2022-10-24 07:09:02.432 CONFIG 110 [AWT-EventQueue-0 - e.b] PrefsDir: C:\Users\khatr\.dbvis
+2022-10-24 07:09:02.433 CONFIG 110 [AWT-EventQueue-0 - e.b] SessionId: 110
+2022-10-24 07:09:02.439 CONFIG 110 [AWT-EventQueue-0 - e.b] Java Arguments: <none>
+2022-10-24 07:09:02.439 CONFIG 110 [AWT-EventQueue-0 - e.b] Java Properties: 
+--add-exports=java.base/sun.security.action=ALL-UNNAMED
+--add-exports=java.desktop/sun.awt.image=ALL-UNNAMED
+--add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing.table=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing=ALL-UNNAMED
+--add-exports=java.xml/com.sun.org.apache.xerces.internal.parsers=ALL-UNNAMED
+--add-opens=java.base/java.nio=ALL-UNNAMED
+--add-opens=java.base/java.util=ALL-UNNAMED
+--add-opens=java.desktop/java.awt.event=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing=ALL-UNNAMED
+--add-opens=java.desktop/sun.awt.image=ALL-UNNAMED
+--add-opens=java.desktop/sun.awt=ALL-UNNAMED
+--add-opens=java.xml/com.sun.org.apache.xerces.internal.util=ALL-UNNAMED
+-Ddbvis.home=C:\Program Files\DbVisualizer\
+-Dexe4j.consoleCodepage=cp0
+-Dexe4j.isInstall4j=true
+-Dexe4j.moduleName=C:\Program Files\DbVisualizer\dbvis.exe
+-Dexe4j.semaphoreName=Local\c:_program_files_dbvisualizer_dbvis.exe
+-Dexe4j.tempDir=
+-Dexe4j.unextractedPosition=0
+-Dinstall4j.launcherId=2
+-Dinstall4j.swt=false
+-Djava.library.path=c:\program files\dbvisualizer\jre\bin;c:\users\khatr\appdata\local\temp\e4j5de5.tmp_dir1666588080\jre\bin;C:\Users\khatr\AppData\Local\Temp\e4j5DE5.tmp_dir1666588080\user;C:\Program Files (x86)\Google\Chrome\Application;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\khatr\AppData\Local\Microsoft\WindowsApps;C:\Users\khatr\AppData\Roaming\npm;C:\Users\khatr\AppData\Local\Programs\Microsoft VS Code\bin;
+-Dsun.locale.formatasdefault=true
+-XX:StringTableSize=1000003
+-Xmx2048m
+2022-10-24 07:09:02.527 INFO   110 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\khatr\.dbvis\Bookmarks
+2022-10-24 07:09:02.527 INFO   110 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\khatr\.dbvis\config140
+2022-10-24 07:09:02.528 INFO   110 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\khatr\.dbvis\config140\borders
+2022-10-24 07:09:02.529 INFO   110 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\khatr\.dbvis\config140\keymaps
+2022-10-24 07:09:02.529 INFO   110 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\khatr\.dbvis\config140\layouts
+2022-10-24 07:09:02.530 INFO   110 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\khatr\.dbvis\config140\sqlformats
+2022-10-24 07:09:02.531 INFO   110 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\khatr\.dbvis\config140\databaseinfo
+2022-10-24 07:09:02.532 INFO   110 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\khatr\.dbvis\config140\databaseinfo\user
+2022-10-24 07:09:02.533 INFO   110 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\khatr\.dbvis\config140\databaseinfo\user\databaseTypes
+2022-10-24 07:09:02.534 INFO   110 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\khatr\.dbvis\config140\databaseinfo\user\driverTypes
+2022-10-24 07:09:02.534 INFO   110 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\khatr\.dbvis\ext
+2022-10-24 07:09:02.535 INFO   110 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\khatr\.dbvis\ext\images
+2022-10-24 07:09:02.536 INFO   110 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\khatr\.dbvis\ext\images\16x16
+2022-10-24 07:09:02.537 INFO   110 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\khatr\.dbvis\ext\images\24x24
+2022-10-24 07:09:02.537 INFO   110 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\khatr\.dbvis\ext\profiles
+2022-10-24 07:09:02.538 INFO   110 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\khatr\.dbvis\ext\keywords
+2022-10-24 07:09:02.539 INFO   110 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\khatr\.dbvis\History
+2022-10-24 07:09:02.539 INFO   110 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\khatr\.dbvis\import
+2022-10-24 07:09:02.540 INFO   110 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\khatr\.dbvis\jdbc
+2022-10-24 07:09:02.540 INFO   110 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\khatr\.dbvis\Monitors
+2022-10-24 07:09:02.541 INFO   110 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\khatr\.dbvis\Workspace
+2022-10-24 07:09:02.541 INFO   110 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\khatr\.dbvis\Workspace\default
+2022-10-24 07:09:02.542 INFO   110 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\khatr\.dbvis\sqllogs
+2022-10-24 07:09:04.218 INFO   110 [AWT-EventQueue-0 - x.j] Cleaning any old driver files
+2022-10-24 07:09:04.221 INFO   110 [AWT-EventQueue-0 - x.j] Finished cleaning old driver dirs. Time: 1ms
+2022-10-24 07:09:04.241 INFO   110 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The TNS_ADMIN environment variable is not set. Trying ORACLE_HOME
+2022-10-24 07:09:04.241 INFO   110 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The ORACLE_HOME environment variable is not set. TNS names cannot be used for Oracle connections
+2022-10-24 07:09:04.485 INFO   110 [AWT-EventQueue-0 - pb.f] Existing beans: 'G1 Old Gen' max: 2147483648
+2022-10-24 07:09:04.491 INFO   110 [AWT-EventQueue-0 - pb.f] Memory monitor initialized for MxBean: 'G1 Old Gen' Notification threshold: 41943040 Low memory threshold: 25165824 release buffer: 1048576 Usage threshold: 2105540608
+2022-10-24 07:10:36.660 INFO   110 [AWT-EventQueue-0 - d.f] Exiting from EntryDialog
+2022-10-24 07:10:36.805 INFO   110 [AWT-EventQueue-0 - b.f] Wrote user properties files. Time: 0.134. Success files: 10. Failed: 0
+2022-10-24 07:10:36.806 INFO   110 [AWT-EventQueue-0 - DbVisualizerGUI.b] Shutdown time: 0.143
+2022-10-24 07:10:36.806 INFO   110 [AWT-EventQueue-0 - DbVisualizerGUI.b] DbVisualizer: STOPPED. ExitType: FORCE_QUIT
+
+2022-10-24 09:05:06.188 INFO   605 [AWT-EventQueue-0 - e.initialize] DbVisualizer: STARTING
+2022-10-24 09:05:06.241 CONFIG 605 [AWT-EventQueue-0 - e.b] Product: DbVisualizer 14.0.1 (build: 3540)
+2022-10-24 09:05:06.242 CONFIG 605 [AWT-EventQueue-0 - e.b] OS: Windows 10
+2022-10-24 09:05:06.242 CONFIG 605 [AWT-EventQueue-0 - e.b] OS Version: 10.0
+2022-10-24 09:05:06.243 CONFIG 605 [AWT-EventQueue-0 - e.b] OS Arch: amd64
+2022-10-24 09:05:06.244 CONFIG 605 [AWT-EventQueue-0 - e.b] Java Version: 17.0.4.1
+2022-10-24 09:05:06.244 CONFIG 605 [AWT-EventQueue-0 - e.b] Java VM: OpenJDK 64-Bit Server VM
+2022-10-24 09:05:06.245 CONFIG 605 [AWT-EventQueue-0 - e.b] Java Vendor: Eclipse Adoptium
+2022-10-24 09:05:06.245 CONFIG 605 [AWT-EventQueue-0 - e.b] Java Home: c:\program files\dbvisualizer\jre
+2022-10-24 09:05:06.246 CONFIG 605 [AWT-EventQueue-0 - e.b] DbVis Home: C:\Program Files\DbVisualizer
+2022-10-24 09:05:06.247 CONFIG 605 [AWT-EventQueue-0 - e.b] User Home: C:\Users\khatr
+2022-10-24 09:05:06.248 CONFIG 605 [AWT-EventQueue-0 - e.b] PrefsDir: C:\Users\khatr\.dbvis
+2022-10-24 09:05:06.248 CONFIG 605 [AWT-EventQueue-0 - e.b] SessionId: 605
+2022-10-24 09:05:06.259 CONFIG 605 [AWT-EventQueue-0 - e.b] Java Arguments: <none>
+2022-10-24 09:05:06.259 CONFIG 605 [AWT-EventQueue-0 - e.b] Java Properties: 
+--add-exports=java.base/sun.security.action=ALL-UNNAMED
+--add-exports=java.desktop/sun.awt.image=ALL-UNNAMED
+--add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing.table=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing=ALL-UNNAMED
+--add-exports=java.xml/com.sun.org.apache.xerces.internal.parsers=ALL-UNNAMED
+--add-opens=java.base/java.nio=ALL-UNNAMED
+--add-opens=java.base/java.util=ALL-UNNAMED
+--add-opens=java.desktop/java.awt.event=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing=ALL-UNNAMED
+--add-opens=java.desktop/sun.awt.image=ALL-UNNAMED
+--add-opens=java.desktop/sun.awt=ALL-UNNAMED
+--add-opens=java.xml/com.sun.org.apache.xerces.internal.util=ALL-UNNAMED
+-Ddbvis.home=C:\Program Files\DbVisualizer\
+-Dexe4j.consoleCodepage=cp0
+-Dexe4j.isInstall4j=true
+-Dexe4j.moduleName=C:\Program Files\DbVisualizer\dbvis.exe
+-Dexe4j.semaphoreName=Local\c:_program_files_dbvisualizer_dbvis.exe
+-Dexe4j.tempDir=
+-Dexe4j.unextractedPosition=0
+-Dinstall4j.launcherId=2
+-Dinstall4j.swt=false
+-Djava.library.path=c:\program files\dbvisualizer\jre\bin;c:\users\khatr\appdata\local\temp\e4jc064.tmp_dir1666595045\jre\bin;C:\Users\khatr\AppData\Local\Temp\e4jC064.tmp_dir1666595045\user;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\khatr\AppData\Local\Microsoft\WindowsApps;C:\Users\khatr\AppData\Roaming\npm;C:\Users\khatr\AppData\Local\Programs\Microsoft VS Code\bin;
+-Dsun.locale.formatasdefault=true
+-XX:StringTableSize=1000003
+-Xmx2048m
+2022-10-24 09:05:09.566 INFO   605 [AWT-EventQueue-0 - x.j] Cleaning any old driver files
+2022-10-24 09:05:09.568 INFO   605 [AWT-EventQueue-0 - x.j] Finished cleaning old driver dirs. Time: 2ms
+2022-10-24 09:05:09.602 INFO   605 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The TNS_ADMIN environment variable is not set. Trying ORACLE_HOME
+2022-10-24 09:05:09.603 INFO   605 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The ORACLE_HOME environment variable is not set. TNS names cannot be used for Oracle connections
+2022-10-24 09:05:10.067 INFO   605 [AWT-EventQueue-0 - pb.f] Existing beans: 'G1 Old Gen' max: 2147483648
+2022-10-24 09:05:10.074 INFO   605 [AWT-EventQueue-0 - pb.f] Memory monitor initialized for MxBean: 'G1 Old Gen' Notification threshold: 41943040 Low memory threshold: 25165824 release buffer: 1048576 Usage threshold: 2105540608
+2022-10-24 09:05:25.381 INFO   605 [ExecutorRunner-pool-4-thread-1 - c.d] Migration not needed since C:\Users\khatr\.dbvis\config140 was not created during session
+2022-10-24 09:05:26.176 INFO   605 [AWT-EventQueue-0 - DbVisualizerGUI.initialize] Startup time: 21.144
+2022-10-24 09:05:26.665 INFO   605 [AWT-EventQueue-0 - c.i] Load workspace time: 0.248
+2022-10-24 09:05:26.671 INFO   605 [AWT-EventQueue-0 - pb.e] Workspace auto saver thread started. Interval: 30 sec
+2022-10-24 09:05:26.675 INFO   605 [AWT-EventQueue-0 - ib.c] Connection keep-alive thread started. Interval: 10 sec
+2022-10-24 09:05:26.680 INFO   605 [AWT-EventQueue-0 - x.f] Workspace file modification monitor thread started. Interval: 30 sec
+2022-10-24 11:23:00.023 INFO   605 [AWT-EventQueue-0 - b.f] Wrote user properties files. Time: 0.253. Success files: 10. Failed: 0
+2022-10-25 11:08:13.353 INFO   605 [AWT-EventQueue-0 - b.f] Wrote user properties files. Time: 0.242. Success files: 10. Failed: 0
+2022-10-25 11:08:13.355 INFO   605 [AWT-EventQueue-0 - DbVisualizerGUI.b] Shutdown time: 0.617
+2022-10-25 11:08:13.356 INFO   605 [AWT-EventQueue-0 - DbVisualizerGUI.b] DbVisualizer: STOPPED. ExitType: NORMAL
+
+2022-10-26 15:47:56.159 INFO   628 [AWT-EventQueue-0 - e.initialize] DbVisualizer: STARTING
+2022-10-26 15:47:56.223 CONFIG 628 [AWT-EventQueue-0 - e.b] Product: DbVisualizer 14.0.1 (build: 3540)
+2022-10-26 15:47:56.224 CONFIG 628 [AWT-EventQueue-0 - e.b] OS: Windows 10
+2022-10-26 15:47:56.224 CONFIG 628 [AWT-EventQueue-0 - e.b] OS Version: 10.0
+2022-10-26 15:47:56.225 CONFIG 628 [AWT-EventQueue-0 - e.b] OS Arch: amd64
+2022-10-26 15:47:56.225 CONFIG 628 [AWT-EventQueue-0 - e.b] Java Version: 17.0.4.1
+2022-10-26 15:47:56.226 CONFIG 628 [AWT-EventQueue-0 - e.b] Java VM: OpenJDK 64-Bit Server VM
+2022-10-26 15:47:56.227 CONFIG 628 [AWT-EventQueue-0 - e.b] Java Vendor: Eclipse Adoptium
+2022-10-26 15:47:56.227 CONFIG 628 [AWT-EventQueue-0 - e.b] Java Home: c:\program files\dbvisualizer\jre
+2022-10-26 15:47:56.228 CONFIG 628 [AWT-EventQueue-0 - e.b] DbVis Home: C:\Program Files\DbVisualizer
+2022-10-26 15:47:56.228 CONFIG 628 [AWT-EventQueue-0 - e.b] User Home: C:\Users\khatr
+2022-10-26 15:47:56.229 CONFIG 628 [AWT-EventQueue-0 - e.b] PrefsDir: C:\Users\khatr\.dbvis
+2022-10-26 15:47:56.229 CONFIG 628 [AWT-EventQueue-0 - e.b] SessionId: 628
+2022-10-26 15:47:56.240 CONFIG 628 [AWT-EventQueue-0 - e.b] Java Arguments: <none>
+2022-10-26 15:47:56.240 CONFIG 628 [AWT-EventQueue-0 - e.b] Java Properties: 
+--add-exports=java.base/sun.security.action=ALL-UNNAMED
+--add-exports=java.desktop/sun.awt.image=ALL-UNNAMED
+--add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing.table=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing=ALL-UNNAMED
+--add-exports=java.xml/com.sun.org.apache.xerces.internal.parsers=ALL-UNNAMED
+--add-opens=java.base/java.nio=ALL-UNNAMED
+--add-opens=java.base/java.util=ALL-UNNAMED
+--add-opens=java.desktop/java.awt.event=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing=ALL-UNNAMED
+--add-opens=java.desktop/sun.awt.image=ALL-UNNAMED
+--add-opens=java.desktop/sun.awt=ALL-UNNAMED
+--add-opens=java.xml/com.sun.org.apache.xerces.internal.util=ALL-UNNAMED
+-Ddbvis.home=C:\Program Files\DbVisualizer\
+-Dexe4j.consoleCodepage=cp0
+-Dexe4j.isInstall4j=true
+-Dexe4j.moduleName=C:\Program Files\DbVisualizer\dbvis.exe
+-Dexe4j.semaphoreName=Local\c:_program_files_dbvisualizer_dbvis.exe
+-Dexe4j.tempDir=
+-Dexe4j.unextractedPosition=0
+-Dinstall4j.launcherId=2
+-Dinstall4j.swt=false
+-Djava.library.path=c:\program files\dbvisualizer\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\khatr\AppData\Local\Microsoft\WindowsApps;C:\Users\khatr\AppData\Roaming\npm;C:\Users\khatr\AppData\Local\Programs\Microsoft VS Code\bin;
+-Dsun.locale.formatasdefault=true
+-XX:StringTableSize=1000003
+-Xmx2048m
+2022-10-26 15:48:00.685 INFO   628 [AWT-EventQueue-0 - x.j] Cleaning any old driver files
+2022-10-26 15:48:00.689 INFO   628 [AWT-EventQueue-0 - x.j] Finished cleaning old driver dirs. Time: 3ms
+2022-10-26 15:48:00.846 INFO   628 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The TNS_ADMIN environment variable is not set. Trying ORACLE_HOME
+2022-10-26 15:48:00.847 INFO   628 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The ORACLE_HOME environment variable is not set. TNS names cannot be used for Oracle connections
+2022-10-26 15:48:01.509 INFO   628 [AWT-EventQueue-0 - pb.f] Existing beans: 'G1 Old Gen' max: 2147483648
+2022-10-26 15:48:01.516 INFO   628 [AWT-EventQueue-0 - pb.f] Memory monitor initialized for MxBean: 'G1 Old Gen' Notification threshold: 41943040 Low memory threshold: 25165824 release buffer: 1048576 Usage threshold: 2105540608
+2022-10-26 15:48:14.243 INFO   628 [ExecutorRunner-pool-4-thread-1 - c.d] Migration not needed since C:\Users\khatr\.dbvis\config140 was not created during session
+2022-10-26 15:48:15.011 INFO   628 [AWT-EventQueue-0 - DbVisualizerGUI.initialize] Startup time: 20.229
+2022-10-26 15:48:15.722 INFO   628 [AWT-EventQueue-0 - c.i] Load workspace time: 0.432
+2022-10-26 15:48:15.725 INFO   628 [AWT-EventQueue-0 - pb.e] Workspace auto saver thread started. Interval: 30 sec
+2022-10-26 15:48:15.728 INFO   628 [AWT-EventQueue-0 - ib.c] Connection keep-alive thread started. Interval: 10 sec
+2022-10-26 15:48:15.734 INFO   628 [AWT-EventQueue-0 - x.f] Workspace file modification monitor thread started. Interval: 30 sec
+2022-10-26 16:00:36.674 INFO   628 [ExecutorRunner-pool-4-thread-6 - b.ug] Could not get constraints info for: 'actor'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.e.b(Z:401)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1471)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-10-26 16:00:36.872 INFO   628 [ExecutorRunner-pool-4-thread-6 - b.ug] Could not get constraints info for: 'film_actor'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.e.b(Z:627)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1471)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-10-26 16:00:37.049 INFO   628 [ExecutorRunner-pool-4-thread-6 - b.ug] Could not get constraints info for: 'city'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.e.b(Z:401)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1471)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-10-26 16:00:37.186 INFO   628 [ExecutorRunner-pool-4-thread-6 - b.ug] Could not get constraints info for: 'address'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.e.b(Z:627)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1471)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-10-26 16:00:37.326 INFO   628 [ExecutorRunner-pool-4-thread-6 - b.ug] Could not get constraints info for: 'customer'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.e.b(Z:627)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1471)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-10-26 16:00:37.462 INFO   628 [ExecutorRunner-pool-4-thread-6 - b.ug] Could not get constraints info for: 'staff'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.e.b(Z:627)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1471)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-10-26 16:00:37.573 INFO   628 [ExecutorRunner-pool-4-thread-6 - b.ug] Could not get constraints info for: 'store'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.e.b(Z:627)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1471)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-10-26 16:00:37.755 INFO   628 [ExecutorRunner-pool-4-thread-6 - b.ug] Could not get constraints info for: 'category'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.e.b(Z:401)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1471)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-10-26 16:00:37.874 INFO   628 [ExecutorRunner-pool-4-thread-6 - b.ug] Could not get constraints info for: 'film_category'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.e.b(Z:627)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1471)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-10-26 16:00:37.999 INFO   628 [ExecutorRunner-pool-4-thread-6 - b.ug] Could not get constraints info for: 'country'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.e.b(Z:401)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1471)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-10-26 16:00:38.044 INFO   628 [ExecutorRunner-pool-4-thread-6 - b.ug] Could not get constraints info for: 'payment'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.e.b(Z:627)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1471)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-10-26 16:00:38.090 INFO   628 [ExecutorRunner-pool-4-thread-6 - b.ug] Could not get constraints info for: 'rental'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.e.b(Z:627)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1471)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-10-26 16:00:38.137 INFO   628 [ExecutorRunner-pool-4-thread-6 - b.ug] Could not get constraints info for: 'language'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.e.b(Z:401)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1471)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-10-26 16:00:38.183 INFO   628 [ExecutorRunner-pool-4-thread-6 - b.ug] Could not get constraints info for: 'film'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.e.b(Z:627)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1471)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-10-26 16:00:38.226 INFO   628 [ExecutorRunner-pool-4-thread-6 - b.ug] Could not get constraints info for: 'inventory'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.e.b(Z:627)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1471)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-10-26 16:00:38.262 INFO   628 [ExecutorRunner-pool-4-thread-6 - b.ug] Could not get constraints info for: 'mynewtable'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.e.b(Z:401)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1471)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor59.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-10-27 08:17:43.267 INFO   628 [AWT-EventQueue-0 - b.f] Wrote user properties files. Time: 0.279. Success files: 10. Failed: 0
+2022-10-27 08:17:43.268 INFO   628 [AWT-EventQueue-0 - DbVisualizerGUI.b] Shutdown time: 0.620
+2022-10-27 08:17:43.268 INFO   628 [AWT-EventQueue-0 - DbVisualizerGUI.b] DbVisualizer: STOPPED. ExitType: NORMAL
+
+2022-11-05 18:34:40.665 INFO    69 [AWT-EventQueue-0 - e.initialize] DbVisualizer: STARTING
+2022-11-05 18:34:40.730 CONFIG  69 [AWT-EventQueue-0 - e.b] Product: DbVisualizer 14.0.1 (build: 3540)
+2022-11-05 18:34:40.731 CONFIG  69 [AWT-EventQueue-0 - e.b] OS: Windows 10
+2022-11-05 18:34:40.732 CONFIG  69 [AWT-EventQueue-0 - e.b] OS Version: 10.0
+2022-11-05 18:34:40.733 CONFIG  69 [AWT-EventQueue-0 - e.b] OS Arch: amd64
+2022-11-05 18:34:40.733 CONFIG  69 [AWT-EventQueue-0 - e.b] Java Version: 17.0.4.1
+2022-11-05 18:34:40.734 CONFIG  69 [AWT-EventQueue-0 - e.b] Java VM: OpenJDK 64-Bit Server VM
+2022-11-05 18:34:40.735 CONFIG  69 [AWT-EventQueue-0 - e.b] Java Vendor: Eclipse Adoptium
+2022-11-05 18:34:40.735 CONFIG  69 [AWT-EventQueue-0 - e.b] Java Home: c:\program files\dbvisualizer\jre
+2022-11-05 18:34:40.736 CONFIG  69 [AWT-EventQueue-0 - e.b] DbVis Home: C:\Program Files\DbVisualizer
+2022-11-05 18:34:40.736 CONFIG  69 [AWT-EventQueue-0 - e.b] User Home: C:\Users\khatr
+2022-11-05 18:34:40.737 CONFIG  69 [AWT-EventQueue-0 - e.b] PrefsDir: C:\Users\khatr\.dbvis
+2022-11-05 18:34:40.738 CONFIG  69 [AWT-EventQueue-0 - e.b] SessionId: 69
+2022-11-05 18:34:40.752 CONFIG  69 [AWT-EventQueue-0 - e.b] Java Arguments: <none>
+2022-11-05 18:34:40.753 CONFIG  69 [AWT-EventQueue-0 - e.b] Java Properties: 
+--add-exports=java.base/sun.security.action=ALL-UNNAMED
+--add-exports=java.desktop/sun.awt.image=ALL-UNNAMED
+--add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing.table=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing=ALL-UNNAMED
+--add-exports=java.xml/com.sun.org.apache.xerces.internal.parsers=ALL-UNNAMED
+--add-opens=java.base/java.nio=ALL-UNNAMED
+--add-opens=java.base/java.util=ALL-UNNAMED
+--add-opens=java.desktop/java.awt.event=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing=ALL-UNNAMED
+--add-opens=java.desktop/sun.awt.image=ALL-UNNAMED
+--add-opens=java.desktop/sun.awt=ALL-UNNAMED
+--add-opens=java.xml/com.sun.org.apache.xerces.internal.util=ALL-UNNAMED
+-Ddbvis.home=C:\Program Files\DbVisualizer\
+-Dexe4j.consoleCodepage=cp0
+-Dexe4j.isInstall4j=true
+-Dexe4j.moduleName=C:\Program Files\DbVisualizer\dbvis.exe
+-Dexe4j.semaphoreName=Local\c:_program_files_dbvisualizer_dbvis.exe
+-Dexe4j.tempDir=
+-Dexe4j.unextractedPosition=0
+-Dinstall4j.launcherId=2
+-Dinstall4j.swt=false
+-Djava.library.path=c:\program files\dbvisualizer\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\khatr\AppData\Local\Microsoft\WindowsApps;C:\Users\khatr\AppData\Roaming\npm;C:\Users\khatr\AppData\Local\Programs\Microsoft VS Code\bin;
+-Dsun.locale.formatasdefault=true
+-XX:StringTableSize=1000003
+-Xmx2048m
+2022-11-05 18:34:45.616 INFO    69 [AWT-EventQueue-0 - x.j] Cleaning any old driver files
+2022-11-05 18:34:45.620 INFO    69 [AWT-EventQueue-0 - x.j] Finished cleaning old driver dirs. Time: 3ms
+2022-11-05 18:34:45.813 INFO    69 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The TNS_ADMIN environment variable is not set. Trying ORACLE_HOME
+2022-11-05 18:34:45.814 INFO    69 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The ORACLE_HOME environment variable is not set. TNS names cannot be used for Oracle connections
+2022-11-05 18:34:46.492 INFO    69 [AWT-EventQueue-0 - pb.f] Existing beans: 'G1 Old Gen' max: 2147483648
+2022-11-05 18:34:46.499 INFO    69 [AWT-EventQueue-0 - pb.f] Memory monitor initialized for MxBean: 'G1 Old Gen' Notification threshold: 41943040 Low memory threshold: 25165824 release buffer: 1048576 Usage threshold: 2105540608
+2022-11-05 18:35:01.911 INFO    69 [ExecutorRunner-pool-4-thread-1 - c.d] Migration not needed since C:\Users\khatr\.dbvis\config140 was not created during session
+2022-11-05 18:35:03.043 INFO    69 [AWT-EventQueue-0 - DbVisualizerGUI.initialize] Startup time: 23.823
+2022-11-05 18:35:03.783 INFO    69 [AWT-EventQueue-0 - c.i] Load workspace time: 0.424
+2022-11-05 18:35:03.798 INFO    69 [AWT-EventQueue-0 - pb.e] Workspace auto saver thread started. Interval: 30 sec
+2022-11-05 18:35:03.801 INFO    69 [AWT-EventQueue-0 - ib.c] Connection keep-alive thread started. Interval: 10 sec
+2022-11-05 18:35:03.805 INFO    69 [AWT-EventQueue-0 - x.f] Workspace file modification monitor thread started. Interval: 30 sec
+2022-11-05 18:36:22.953 INFO    69 [AWT-EventQueue-0 - b.f] Wrote user properties files. Time: 0.287. Success files: 10. Failed: 0
+2022-11-05 19:21:28.182 INFO    69 [AWT-EventQueue-0 - b.f] Wrote user properties files. Time: 0.287. Success files: 10. Failed: 0
+2022-11-05 19:21:28.183 INFO    69 [AWT-EventQueue-0 - DbVisualizerGUI.b] Shutdown time: 0.659
+2022-11-05 19:21:28.183 INFO    69 [AWT-EventQueue-0 - DbVisualizerGUI.b] DbVisualizer: STOPPED. ExitType: NORMAL
+
+2022-11-05 19:21:37.210 INFO   429 [AWT-EventQueue-0 - e.initialize] DbVisualizer: STARTING
+2022-11-05 19:21:37.254 CONFIG 429 [AWT-EventQueue-0 - e.b] Product: DbVisualizer 14.0.1 (build: 3540)
+2022-11-05 19:21:37.255 CONFIG 429 [AWT-EventQueue-0 - e.b] OS: Windows 10
+2022-11-05 19:21:37.256 CONFIG 429 [AWT-EventQueue-0 - e.b] OS Version: 10.0
+2022-11-05 19:21:37.256 CONFIG 429 [AWT-EventQueue-0 - e.b] OS Arch: amd64
+2022-11-05 19:21:37.257 CONFIG 429 [AWT-EventQueue-0 - e.b] Java Version: 17.0.4.1
+2022-11-05 19:21:37.258 CONFIG 429 [AWT-EventQueue-0 - e.b] Java VM: OpenJDK 64-Bit Server VM
+2022-11-05 19:21:37.258 CONFIG 429 [AWT-EventQueue-0 - e.b] Java Vendor: Eclipse Adoptium
+2022-11-05 19:21:37.259 CONFIG 429 [AWT-EventQueue-0 - e.b] Java Home: c:\program files\dbvisualizer\jre
+2022-11-05 19:21:37.260 CONFIG 429 [AWT-EventQueue-0 - e.b] DbVis Home: C:\Program Files\DbVisualizer
+2022-11-05 19:21:37.260 CONFIG 429 [AWT-EventQueue-0 - e.b] User Home: C:\Users\khatr
+2022-11-05 19:21:37.261 CONFIG 429 [AWT-EventQueue-0 - e.b] PrefsDir: C:\Users\khatr\.dbvis
+2022-11-05 19:21:37.261 CONFIG 429 [AWT-EventQueue-0 - e.b] SessionId: 429
+2022-11-05 19:21:37.271 CONFIG 429 [AWT-EventQueue-0 - e.b] Java Arguments: <none>
+2022-11-05 19:21:37.272 CONFIG 429 [AWT-EventQueue-0 - e.b] Java Properties: 
+--add-exports=java.base/sun.security.action=ALL-UNNAMED
+--add-exports=java.desktop/sun.awt.image=ALL-UNNAMED
+--add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing.table=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing=ALL-UNNAMED
+--add-exports=java.xml/com.sun.org.apache.xerces.internal.parsers=ALL-UNNAMED
+--add-opens=java.base/java.nio=ALL-UNNAMED
+--add-opens=java.base/java.util=ALL-UNNAMED
+--add-opens=java.desktop/java.awt.event=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing=ALL-UNNAMED
+--add-opens=java.desktop/sun.awt.image=ALL-UNNAMED
+--add-opens=java.desktop/sun.awt=ALL-UNNAMED
+--add-opens=java.xml/com.sun.org.apache.xerces.internal.util=ALL-UNNAMED
+-Ddbvis.home=C:\Program Files\DbVisualizer\
+-Dexe4j.consoleCodepage=cp0
+-Dexe4j.isInstall4j=true
+-Dexe4j.moduleName=C:\Program Files\DbVisualizer\dbvis.exe
+-Dexe4j.semaphoreName=Local\c:_program_files_dbvisualizer_dbvis.exe
+-Dexe4j.tempDir=
+-Dexe4j.unextractedPosition=0
+-Dinstall4j.launcherId=2
+-Dinstall4j.swt=false
+-Djava.library.path=c:\program files\dbvisualizer\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\khatr\AppData\Local\Microsoft\WindowsApps;C:\Users\khatr\AppData\Roaming\npm;C:\Users\khatr\AppData\Local\Programs\Microsoft VS Code\bin;
+-Dsun.locale.formatasdefault=true
+-XX:StringTableSize=1000003
+-Xmx2048m
+2022-11-05 19:21:39.670 INFO   429 [AWT-EventQueue-0 - x.j] Cleaning any old driver files
+2022-11-05 19:21:39.674 INFO   429 [AWT-EventQueue-0 - x.j] Finished cleaning old driver dirs. Time: 3ms
+2022-11-05 19:21:39.782 INFO   429 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The TNS_ADMIN environment variable is not set. Trying ORACLE_HOME
+2022-11-05 19:21:39.782 INFO   429 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The ORACLE_HOME environment variable is not set. TNS names cannot be used for Oracle connections
+2022-11-05 19:21:40.322 INFO   429 [AWT-EventQueue-0 - pb.f] Existing beans: 'G1 Old Gen' max: 2147483648
+2022-11-05 19:21:40.330 INFO   429 [AWT-EventQueue-0 - pb.f] Memory monitor initialized for MxBean: 'G1 Old Gen' Notification threshold: 41943040 Low memory threshold: 25165824 release buffer: 1048576 Usage threshold: 2105540608
+2022-11-05 19:21:52.268 INFO   429 [ExecutorRunner-pool-4-thread-1 - c.d] Migration not needed since C:\Users\khatr\.dbvis\config140 was not created during session
+2022-11-05 19:21:53.148 INFO   429 [AWT-EventQueue-0 - DbVisualizerGUI.initialize] Startup time: 16.875
+2022-11-05 19:21:53.735 INFO   429 [AWT-EventQueue-0 - c.i] Load workspace time: 0.336
+2022-11-05 19:21:53.738 INFO   429 [AWT-EventQueue-0 - pb.e] Workspace auto saver thread started. Interval: 30 sec
+2022-11-05 19:21:53.741 INFO   429 [AWT-EventQueue-0 - ib.c] Connection keep-alive thread started. Interval: 10 sec
+2022-11-05 19:21:53.745 INFO   429 [AWT-EventQueue-0 - x.f] Workspace file modification monitor thread started. Interval: 30 sec
+2022-11-06 19:58:00.386 INFO   429 [AWT-EventQueue-0 - b.f] Wrote user properties files. Time: 0.314. Success files: 10. Failed: 0
+2022-11-06 19:58:00.387 INFO   429 [AWT-EventQueue-0 - DbVisualizerGUI.b] Shutdown time: 0.607
+2022-11-06 19:58:00.388 INFO   429 [AWT-EventQueue-0 - DbVisualizerGUI.b] DbVisualizer: STOPPED. ExitType: NORMAL
+
+2022-11-06 19:58:07.735 INFO   328 [AWT-EventQueue-0 - e.initialize] DbVisualizer: STARTING
+2022-11-06 19:58:07.796 CONFIG 328 [AWT-EventQueue-0 - e.b] Product: DbVisualizer 14.0.1 (build: 3540)
+2022-11-06 19:58:07.796 CONFIG 328 [AWT-EventQueue-0 - e.b] OS: Windows 10
+2022-11-06 19:58:07.798 CONFIG 328 [AWT-EventQueue-0 - e.b] OS Version: 10.0
+2022-11-06 19:58:07.798 CONFIG 328 [AWT-EventQueue-0 - e.b] OS Arch: amd64
+2022-11-06 19:58:07.798 CONFIG 328 [AWT-EventQueue-0 - e.b] Java Version: 17.0.4.1
+2022-11-06 19:58:07.799 CONFIG 328 [AWT-EventQueue-0 - e.b] Java VM: OpenJDK 64-Bit Server VM
+2022-11-06 19:58:07.799 CONFIG 328 [AWT-EventQueue-0 - e.b] Java Vendor: Eclipse Adoptium
+2022-11-06 19:58:07.800 CONFIG 328 [AWT-EventQueue-0 - e.b] Java Home: c:\program files\dbvisualizer\jre
+2022-11-06 19:58:07.800 CONFIG 328 [AWT-EventQueue-0 - e.b] DbVis Home: C:\Program Files\DbVisualizer
+2022-11-06 19:58:07.801 CONFIG 328 [AWT-EventQueue-0 - e.b] User Home: C:\Users\khatr
+2022-11-06 19:58:07.802 CONFIG 328 [AWT-EventQueue-0 - e.b] PrefsDir: C:\Users\khatr\.dbvis
+2022-11-06 19:58:07.802 CONFIG 328 [AWT-EventQueue-0 - e.b] SessionId: 328
+2022-11-06 19:58:07.814 CONFIG 328 [AWT-EventQueue-0 - e.b] Java Arguments: <none>
+2022-11-06 19:58:07.814 CONFIG 328 [AWT-EventQueue-0 - e.b] Java Properties: 
+--add-exports=java.base/sun.security.action=ALL-UNNAMED
+--add-exports=java.desktop/sun.awt.image=ALL-UNNAMED
+--add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing.table=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing=ALL-UNNAMED
+--add-exports=java.xml/com.sun.org.apache.xerces.internal.parsers=ALL-UNNAMED
+--add-opens=java.base/java.nio=ALL-UNNAMED
+--add-opens=java.base/java.util=ALL-UNNAMED
+--add-opens=java.desktop/java.awt.event=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing=ALL-UNNAMED
+--add-opens=java.desktop/sun.awt.image=ALL-UNNAMED
+--add-opens=java.desktop/sun.awt=ALL-UNNAMED
+--add-opens=java.xml/com.sun.org.apache.xerces.internal.util=ALL-UNNAMED
+-Ddbvis.home=C:\Program Files\DbVisualizer\
+-Dexe4j.consoleCodepage=cp0
+-Dexe4j.isInstall4j=true
+-Dexe4j.moduleName=C:\Program Files\DbVisualizer\dbvis.exe
+-Dexe4j.semaphoreName=Local\c:_program_files_dbvisualizer_dbvis.exe
+-Dexe4j.tempDir=
+-Dexe4j.unextractedPosition=0
+-Dinstall4j.launcherId=2
+-Dinstall4j.swt=false
+-Djava.library.path=c:\program files\dbvisualizer\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\khatr\AppData\Local\Microsoft\WindowsApps;C:\Users\khatr\AppData\Roaming\npm;C:\Users\khatr\AppData\Local\Programs\Microsoft VS Code\bin;
+-Dsun.locale.formatasdefault=true
+-XX:StringTableSize=1000003
+-Xmx2048m
+2022-11-06 19:58:10.589 INFO   328 [AWT-EventQueue-0 - x.j] Cleaning any old driver files
+2022-11-06 19:58:10.594 INFO   328 [AWT-EventQueue-0 - x.j] Finished cleaning old driver dirs. Time: 4ms
+2022-11-06 19:58:10.776 INFO   328 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The TNS_ADMIN environment variable is not set. Trying ORACLE_HOME
+2022-11-06 19:58:10.777 INFO   328 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The ORACLE_HOME environment variable is not set. TNS names cannot be used for Oracle connections
+2022-11-06 19:58:11.589 INFO   328 [AWT-EventQueue-0 - pb.f] Existing beans: 'G1 Old Gen' max: 2147483648
+2022-11-06 19:58:11.601 INFO   328 [AWT-EventQueue-0 - pb.f] Memory monitor initialized for MxBean: 'G1 Old Gen' Notification threshold: 41943040 Low memory threshold: 25165824 release buffer: 1048576 Usage threshold: 2105540608
+2022-11-06 19:58:29.228 INFO   328 [ExecutorRunner-pool-4-thread-1 - c.d] Migration not needed since C:\Users\khatr\.dbvis\config140 was not created during session
+2022-11-06 19:58:30.215 INFO   328 [AWT-EventQueue-0 - DbVisualizerGUI.initialize] Startup time: 23.693
+2022-11-06 19:58:31.221 INFO   328 [AWT-EventQueue-0 - c.i] Load workspace time: 0.720
+2022-11-06 19:58:31.225 INFO   328 [AWT-EventQueue-0 - pb.e] Workspace auto saver thread started. Interval: 30 sec
+2022-11-06 19:58:31.229 INFO   328 [AWT-EventQueue-0 - ib.c] Connection keep-alive thread started. Interval: 10 sec
+2022-11-06 19:58:31.234 INFO   328 [AWT-EventQueue-0 - x.f] Workspace file modification monitor thread started. Interval: 30 sec
+2022-11-06 19:59:48.838 INFO   328 [AWT-EventQueue-0 - b.f] Wrote user properties files. Time: 0.272. Success files: 10. Failed: 0
+2022-11-06 20:00:12.286 INFO   328 [AWT-EventQueue-0 - b.f] Wrote user properties files. Time: 0.193. Success files: 10. Failed: 0
+2022-11-06 20:03:24.773 INFO   328 [AWT-EventQueue-0 - b.f] Wrote user properties files. Time: 0.214. Success files: 10. Failed: 0
+2022-11-06 20:05:11.528 INFO   328 [AWT-EventQueue-0 - b.f] Wrote user properties files. Time: 0.228. Success files: 10. Failed: 0
+2022-11-06 20:05:11.817 INFO   328 [ExecutorRunner-pool-4-thread-4 - l.zb] Exception while connecting carRacingLeague
+*** Database Properties ****************************
+Alias: carRacingLeague
+Notes: [0 characters]
+Settings Format: Server Info
+URL: jdbc:postgresql://localhost:5432/postgres
+Driver: PostgreSQL (Based on PostgreSQL (Supported))
+Preferred Database Type: AUTO
+Current Database Type: POSTGRESQL
+Preferred Profile: auto
+Current Profile: null (not connected?)
+Connection State(s): DISCONNECTED
+--- Object Type Settings ---------------------------
+None
+--- Overridden User Properties ---------------------
+None
+--- Overridden Driver Properties -------------------
+ApplicationName = dbvis (TEMPLATE)
+loggerLevel = OFF (TEMPLATE)
+*** End Database Properties ************************
+*** Driver Information *****************************
+Name: PostgreSQL
+DefaultClass: org.postgresql.Driver
+Artifacts: 
+   MAVEN Artifact (Activated) org.postgresql:postgresql:42.5.0
+      maven\org\postgresql\postgresql\42.5.0\postgresql-42.5.0.jar
+*** End Driver Information *************************
+*** Current Connection Message *********************
+Disconnected.
+*** End Current Connection Message *****************
+
+2022-11-06 20:05:11.818 INFO   328 [ExecutorRunner-pool-4-thread-4 - l.zb] Exception while connecting carRacingLeague
+FATAL: no PostgreSQL user name specified in startup packet
+
+[Exception Chain]:
+1: Root-> (PSQLException) [Code:0, SQL State: 28000] FATAL: no PostgreSQL user name specified in startup packet
+
+[Stack trace]:
+org.postgresql.util.PSQLException: FATAL: no PostgreSQL user name specified in startup packet
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:659)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:180)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:247)
+	at org.postgresql.Driver.makeConnection(Driver.java:434)
+	at org.postgresql.Driver.connect(Driver.java:291)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.e.b(Z:525)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	Suppressed: org.postgresql.util.PSQLException: FATAL: no PostgreSQL user name specified in startup packet
+		at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:659)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:180)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:244)
+		... 14 more
+2022-11-06 20:05:36.944 INFO   328 [AWT-EventQueue-0 - b.f] Wrote user properties files. Time: 0.211. Success files: 10. Failed: 0
+2022-11-06 20:05:37.173 INFO   328 [ExecutorRunner-pool-4-thread-4 - l.zb] Exception while connecting carRacingLeague
+*** Database Properties ****************************
+Alias: carRacingLeague
+Notes: [0 characters]
+Settings Format: Server Info
+URL: jdbc:postgresql://localhost:5432/postgres
+Driver: PostgreSQL (Based on PostgreSQL (Supported))
+Preferred Database Type: AUTO
+Current Database Type: POSTGRESQL
+Preferred Profile: auto
+Current Profile: null (not connected?)
+Connection State(s): DISCONNECTED
+--- Object Type Settings ---------------------------
+None
+--- Overridden User Properties ---------------------
+None
+--- Overridden Driver Properties -------------------
+ApplicationName = dbvis (TEMPLATE)
+loggerLevel = OFF (TEMPLATE)
+*** End Database Properties ************************
+*** Driver Information *****************************
+Name: PostgreSQL
+DefaultClass: org.postgresql.Driver
+Artifacts: 
+   MAVEN Artifact (Activated) org.postgresql:postgresql:42.5.0
+      maven\org\postgresql\postgresql\42.5.0\postgresql-42.5.0.jar
+*** End Driver Information *************************
+*** Current Connection Message *********************
+Disconnected.
+*** End Current Connection Message *****************
+
+2022-11-06 20:05:37.173 INFO   328 [ExecutorRunner-pool-4-thread-4 - l.zb] Exception while connecting carRacingLeague
+FATAL: no PostgreSQL user name specified in startup packet
+
+[Exception Chain]:
+1: Root-> (PSQLException) [Code:0, SQL State: 28000] FATAL: no PostgreSQL user name specified in startup packet
+
+[Stack trace]:
+org.postgresql.util.PSQLException: FATAL: no PostgreSQL user name specified in startup packet
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:659)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:180)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:247)
+	at org.postgresql.Driver.makeConnection(Driver.java:434)
+	at org.postgresql.Driver.connect(Driver.java:291)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.e.b(Z:525)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	Suppressed: org.postgresql.util.PSQLException: FATAL: no PostgreSQL user name specified in startup packet
+		at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:659)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:180)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:244)
+		... 14 more
+2022-11-06 20:06:09.722 INFO   328 [AWT-EventQueue-0 - b.f] Wrote user properties files. Time: 0.248. Success files: 10. Failed: 0
+2022-11-06 20:09:15.952 INFO   328 [ExecutorRunner-pool-4-thread-4 - b.ug] Could not get constraints info for: 'Team'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.e.b(Z:401)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1471)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-11-06 20:58:24.473 INFO   328 [ExecutorRunner-pool-4-thread-8 - b.ug] Could not get constraints info for: 'Car'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.e.b(Z:401)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1471)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor72.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-11-06 20:58:46.290 INFO   328 [ExecutorRunner-pool-4-thread-8 - b.ug] Could not get constraints info for: 'Driver'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.e.b(Z:401)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1471)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor72.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-11-06 20:58:49.630 INFO   328 [ExecutorRunner-pool-4-thread-8 - b.ug] Could not get constraints info for: 'Team'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.e.b(Z:401)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1471)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor72.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-11-07 12:04:03.496 INFO   328 [ExecutorRunner-pool-4-thread-25 - b.ug] Could not get constraints info for: 'Driver'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.e.b(Z:401)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1471)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor72.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-11-07 12:04:03.622 INFO   328 [ExecutorRunner-pool-4-thread-25 - b.ug] Could not get constraints info for: 'Team'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.e.b(Z:627)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1471)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor72.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-11-07 12:04:32.191 INFO   328 [ExecutorRunner-pool-4-thread-25 - b.ug] Could not get constraints info for: 'Team'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1686)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor72.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-11-07 12:04:32.240 INFO   328 [ExecutorRunner-pool-4-thread-25 - b.ug] Could not get constraints info for: 'Driver'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1686)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor72.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-11-07 12:04:32.299 INFO   328 [ExecutorRunner-pool-4-thread-25 - b.ug] Could not get constraints info for: 'Car'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1686)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor72.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-11-08 10:12:41.588 INFO   328 [AWT-EventQueue-0 - b.f] Wrote user properties files. Time: 0.190. Success files: 10. Failed: 0
+2022-11-08 10:12:41.589 INFO   328 [AWT-EventQueue-0 - DbVisualizerGUI.b] Shutdown time: 1.612
+2022-11-08 10:12:41.589 INFO   328 [AWT-EventQueue-0 - DbVisualizerGUI.b] DbVisualizer: STOPPED. ExitType: NORMAL
+
+2022-11-21 09:49:32.860 INFO   591 [AWT-EventQueue-0 - e.initialize] DbVisualizer: STARTING
+2022-11-21 09:49:32.920 CONFIG 591 [AWT-EventQueue-0 - e.b] Product: DbVisualizer 14.0.1 (build: 3540)
+2022-11-21 09:49:32.920 CONFIG 591 [AWT-EventQueue-0 - e.b] OS: Windows 10
+2022-11-21 09:49:32.921 CONFIG 591 [AWT-EventQueue-0 - e.b] OS Version: 10.0
+2022-11-21 09:49:32.922 CONFIG 591 [AWT-EventQueue-0 - e.b] OS Arch: amd64
+2022-11-21 09:49:32.923 CONFIG 591 [AWT-EventQueue-0 - e.b] Java Version: 17.0.4.1
+2022-11-21 09:49:32.923 CONFIG 591 [AWT-EventQueue-0 - e.b] Java VM: OpenJDK 64-Bit Server VM
+2022-11-21 09:49:32.924 CONFIG 591 [AWT-EventQueue-0 - e.b] Java Vendor: Eclipse Adoptium
+2022-11-21 09:49:32.924 CONFIG 591 [AWT-EventQueue-0 - e.b] Java Home: c:\program files\dbvisualizer\jre
+2022-11-21 09:49:32.925 CONFIG 591 [AWT-EventQueue-0 - e.b] DbVis Home: C:\Program Files\DbVisualizer
+2022-11-21 09:49:32.925 CONFIG 591 [AWT-EventQueue-0 - e.b] User Home: C:\Users\khatr
+2022-11-21 09:49:32.926 CONFIG 591 [AWT-EventQueue-0 - e.b] PrefsDir: C:\Users\khatr\.dbvis
+2022-11-21 09:49:32.926 CONFIG 591 [AWT-EventQueue-0 - e.b] SessionId: 591
+2022-11-21 09:49:32.937 CONFIG 591 [AWT-EventQueue-0 - e.b] Java Arguments: <none>
+2022-11-21 09:49:32.937 CONFIG 591 [AWT-EventQueue-0 - e.b] Java Properties: 
+--add-exports=java.base/sun.security.action=ALL-UNNAMED
+--add-exports=java.desktop/sun.awt.image=ALL-UNNAMED
+--add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing.table=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing=ALL-UNNAMED
+--add-exports=java.xml/com.sun.org.apache.xerces.internal.parsers=ALL-UNNAMED
+--add-opens=java.base/java.nio=ALL-UNNAMED
+--add-opens=java.base/java.util=ALL-UNNAMED
+--add-opens=java.desktop/java.awt.event=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing=ALL-UNNAMED
+--add-opens=java.desktop/sun.awt.image=ALL-UNNAMED
+--add-opens=java.desktop/sun.awt=ALL-UNNAMED
+--add-opens=java.xml/com.sun.org.apache.xerces.internal.util=ALL-UNNAMED
+-Ddbvis.home=C:\Program Files\DbVisualizer\
+-Dexe4j.consoleCodepage=cp0
+-Dexe4j.isInstall4j=true
+-Dexe4j.moduleName=C:\Program Files\DbVisualizer\dbvis.exe
+-Dexe4j.semaphoreName=Local\c:_program_files_dbvisualizer_dbvis.exe
+-Dexe4j.tempDir=
+-Dexe4j.unextractedPosition=0
+-Dinstall4j.launcherId=2
+-Dinstall4j.swt=false
+-Djava.library.path=c:\program files\dbvisualizer\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\khatr\AppData\Local\Microsoft\WindowsApps;C:\Users\khatr\AppData\Roaming\npm;C:\Users\khatr\AppData\Local\Programs\Microsoft VS Code\bin;
+-Dsun.locale.formatasdefault=true
+-XX:StringTableSize=1000003
+-Xmx2048m
+2022-11-21 09:49:38.770 INFO   591 [AWT-EventQueue-0 - x.j] Cleaning any old driver files
+2022-11-21 09:49:38.776 INFO   591 [AWT-EventQueue-0 - x.j] Finished cleaning old driver dirs. Time: 4ms
+2022-11-21 09:49:38.945 INFO   591 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The TNS_ADMIN environment variable is not set. Trying ORACLE_HOME
+2022-11-21 09:49:38.946 INFO   591 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The ORACLE_HOME environment variable is not set. TNS names cannot be used for Oracle connections
+2022-11-21 09:49:39.774 INFO   591 [AWT-EventQueue-0 - pb.f] Existing beans: 'G1 Old Gen' max: 2147483648
+2022-11-21 09:49:39.786 INFO   591 [AWT-EventQueue-0 - pb.f] Memory monitor initialized for MxBean: 'G1 Old Gen' Notification threshold: 41943040 Low memory threshold: 25165824 release buffer: 1048576 Usage threshold: 2105540608
+2022-11-21 09:49:58.139 INFO   591 [ExecutorRunner-pool-4-thread-1 - c.d] Migration not needed since C:\Users\khatr\.dbvis\config140 was not created during session
+2022-11-21 09:49:59.604 INFO   591 [AWT-EventQueue-0 - DbVisualizerGUI.initialize] Startup time: 28.333
+2022-11-21 09:50:00.494 INFO   591 [AWT-EventQueue-0 - c.i] Load workspace time: 0.419
+2022-11-21 09:50:00.497 INFO   591 [AWT-EventQueue-0 - pb.e] Workspace auto saver thread started. Interval: 30 sec
+2022-11-21 09:50:00.499 INFO   591 [AWT-EventQueue-0 - ib.c] Connection keep-alive thread started. Interval: 10 sec
+2022-11-21 09:50:00.505 INFO   591 [AWT-EventQueue-0 - x.f] Workspace file modification monitor thread started. Interval: 30 sec
+2022-11-21 11:13:59.512 INFO   591 [AWT-EventQueue-0 - b.f] Wrote user properties files. Time: 0.276. Success files: 10. Failed: 0
+2022-11-21 11:13:59.513 INFO   591 [AWT-EventQueue-0 - DbVisualizerGUI.b] Shutdown time: 0.595
+2022-11-21 11:13:59.513 INFO   591 [AWT-EventQueue-0 - DbVisualizerGUI.b] DbVisualizer: STOPPED. ExitType: NORMAL
+
+2022-11-21 18:36:29.232 INFO   399 [AWT-EventQueue-0 - e.initialize] DbVisualizer: STARTING
+2022-11-21 18:36:29.286 CONFIG 399 [AWT-EventQueue-0 - e.b] Product: DbVisualizer 14.0.1 (build: 3540)
+2022-11-21 18:36:29.286 CONFIG 399 [AWT-EventQueue-0 - e.b] OS: Windows 10
+2022-11-21 18:36:29.287 CONFIG 399 [AWT-EventQueue-0 - e.b] OS Version: 10.0
+2022-11-21 18:36:29.288 CONFIG 399 [AWT-EventQueue-0 - e.b] OS Arch: amd64
+2022-11-21 18:36:29.288 CONFIG 399 [AWT-EventQueue-0 - e.b] Java Version: 17.0.4.1
+2022-11-21 18:36:29.289 CONFIG 399 [AWT-EventQueue-0 - e.b] Java VM: OpenJDK 64-Bit Server VM
+2022-11-21 18:36:29.289 CONFIG 399 [AWT-EventQueue-0 - e.b] Java Vendor: Eclipse Adoptium
+2022-11-21 18:36:29.290 CONFIG 399 [AWT-EventQueue-0 - e.b] Java Home: c:\program files\dbvisualizer\jre
+2022-11-21 18:36:29.290 CONFIG 399 [AWT-EventQueue-0 - e.b] DbVis Home: C:\Program Files\DbVisualizer
+2022-11-21 18:36:29.291 CONFIG 399 [AWT-EventQueue-0 - e.b] User Home: C:\Users\khatr
+2022-11-21 18:36:29.292 CONFIG 399 [AWT-EventQueue-0 - e.b] PrefsDir: C:\Users\khatr\.dbvis
+2022-11-21 18:36:29.292 CONFIG 399 [AWT-EventQueue-0 - e.b] SessionId: 399
+2022-11-21 18:36:29.303 CONFIG 399 [AWT-EventQueue-0 - e.b] Java Arguments: <none>
+2022-11-21 18:36:29.303 CONFIG 399 [AWT-EventQueue-0 - e.b] Java Properties: 
+--add-exports=java.base/sun.security.action=ALL-UNNAMED
+--add-exports=java.desktop/sun.awt.image=ALL-UNNAMED
+--add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing.table=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing=ALL-UNNAMED
+--add-exports=java.xml/com.sun.org.apache.xerces.internal.parsers=ALL-UNNAMED
+--add-opens=java.base/java.nio=ALL-UNNAMED
+--add-opens=java.base/java.util=ALL-UNNAMED
+--add-opens=java.desktop/java.awt.event=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing=ALL-UNNAMED
+--add-opens=java.desktop/sun.awt.image=ALL-UNNAMED
+--add-opens=java.desktop/sun.awt=ALL-UNNAMED
+--add-opens=java.xml/com.sun.org.apache.xerces.internal.util=ALL-UNNAMED
+-Ddbvis.home=C:\Program Files\DbVisualizer\
+-Dexe4j.consoleCodepage=cp0
+-Dexe4j.isInstall4j=true
+-Dexe4j.moduleName=C:\Program Files\DbVisualizer\dbvis.exe
+-Dexe4j.semaphoreName=Local\c:_program_files_dbvisualizer_dbvis.exe
+-Dexe4j.tempDir=
+-Dexe4j.unextractedPosition=0
+-Dinstall4j.launcherId=2
+-Dinstall4j.swt=false
+-Djava.library.path=c:\program files\dbvisualizer\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\khatr\AppData\Local\Microsoft\WindowsApps;C:\Users\khatr\AppData\Roaming\npm;C:\Users\khatr\AppData\Local\Programs\Microsoft VS Code\bin;
+-Dsun.locale.formatasdefault=true
+-XX:StringTableSize=1000003
+-Xmx2048m
+2022-11-21 18:36:32.571 INFO   399 [AWT-EventQueue-0 - x.j] Cleaning any old driver files
+2022-11-21 18:36:32.575 INFO   399 [AWT-EventQueue-0 - x.j] Finished cleaning old driver dirs. Time: 4ms
+2022-11-21 18:36:32.608 INFO   399 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The TNS_ADMIN environment variable is not set. Trying ORACLE_HOME
+2022-11-21 18:36:32.609 INFO   399 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The ORACLE_HOME environment variable is not set. TNS names cannot be used for Oracle connections
+2022-11-21 18:36:33.125 INFO   399 [AWT-EventQueue-0 - pb.f] Existing beans: 'G1 Old Gen' max: 2147483648
+2022-11-21 18:36:33.134 INFO   399 [AWT-EventQueue-0 - pb.f] Memory monitor initialized for MxBean: 'G1 Old Gen' Notification threshold: 41943040 Low memory threshold: 25165824 release buffer: 1048576 Usage threshold: 2105540608
+2022-11-21 18:36:48.113 INFO   399 [ExecutorRunner-pool-4-thread-1 - c.d] Migration not needed since C:\Users\khatr\.dbvis\config140 was not created during session
+2022-11-21 18:36:49.174 INFO   399 [AWT-EventQueue-0 - DbVisualizerGUI.initialize] Startup time: 20.985
+2022-11-21 18:36:49.725 INFO   399 [AWT-EventQueue-0 - c.i] Load workspace time: 0.222
+2022-11-21 18:36:49.728 INFO   399 [AWT-EventQueue-0 - pb.e] Workspace auto saver thread started. Interval: 30 sec
+2022-11-21 18:36:49.730 INFO   399 [AWT-EventQueue-0 - ib.c] Connection keep-alive thread started. Interval: 10 sec
+2022-11-21 18:36:49.734 INFO   399 [AWT-EventQueue-0 - x.f] Workspace file modification monitor thread started. Interval: 30 sec
+2022-11-21 18:41:07.952 INFO   399 [AWT-EventQueue-0 - b.f] Wrote user properties files. Time: 0.279. Success files: 10. Failed: 0
+2022-11-21 18:41:07.953 INFO   399 [AWT-EventQueue-0 - DbVisualizerGUI.b] Shutdown time: 0.538
+2022-11-21 18:41:07.953 INFO   399 [AWT-EventQueue-0 - DbVisualizerGUI.b] DbVisualizer: STOPPED. ExitType: DONT_EXIT
+
+2022-11-21 18:41:14.961 INFO   639 [AWT-EventQueue-0 - e.initialize] DbVisualizer: STARTING
+2022-11-21 18:41:15.008 CONFIG 639 [AWT-EventQueue-0 - e.b] Product: DbVisualizer 14.0.1 (build: 3540)
+2022-11-21 18:41:15.009 CONFIG 639 [AWT-EventQueue-0 - e.b] OS: Windows 10
+2022-11-21 18:41:15.009 CONFIG 639 [AWT-EventQueue-0 - e.b] OS Version: 10.0
+2022-11-21 18:41:15.010 CONFIG 639 [AWT-EventQueue-0 - e.b] OS Arch: amd64
+2022-11-21 18:41:15.010 CONFIG 639 [AWT-EventQueue-0 - e.b] Java Version: 17.0.4.1
+2022-11-21 18:41:15.011 CONFIG 639 [AWT-EventQueue-0 - e.b] Java VM: OpenJDK 64-Bit Server VM
+2022-11-21 18:41:15.012 CONFIG 639 [AWT-EventQueue-0 - e.b] Java Vendor: Eclipse Adoptium
+2022-11-21 18:41:15.013 CONFIG 639 [AWT-EventQueue-0 - e.b] Java Home: c:\program files\dbvisualizer\jre
+2022-11-21 18:41:15.013 CONFIG 639 [AWT-EventQueue-0 - e.b] DbVis Home: C:\Program Files\DbVisualizer
+2022-11-21 18:41:15.013 CONFIG 639 [AWT-EventQueue-0 - e.b] User Home: C:\Users\khatr
+2022-11-21 18:41:15.014 CONFIG 639 [AWT-EventQueue-0 - e.b] PrefsDir: C:\Users\khatr\.dbvis
+2022-11-21 18:41:15.015 CONFIG 639 [AWT-EventQueue-0 - e.b] SessionId: 639
+2022-11-21 18:41:15.026 CONFIG 639 [AWT-EventQueue-0 - e.b] Java Arguments: <none>
+2022-11-21 18:41:15.026 CONFIG 639 [AWT-EventQueue-0 - e.b] Java Properties: 
+--add-exports=java.base/sun.security.action=ALL-UNNAMED
+--add-exports=java.desktop/sun.awt.image=ALL-UNNAMED
+--add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing.table=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing=ALL-UNNAMED
+--add-exports=java.xml/com.sun.org.apache.xerces.internal.parsers=ALL-UNNAMED
+--add-opens=java.base/java.nio=ALL-UNNAMED
+--add-opens=java.base/java.util=ALL-UNNAMED
+--add-opens=java.desktop/java.awt.event=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing=ALL-UNNAMED
+--add-opens=java.desktop/sun.awt.image=ALL-UNNAMED
+--add-opens=java.desktop/sun.awt=ALL-UNNAMED
+--add-opens=java.xml/com.sun.org.apache.xerces.internal.util=ALL-UNNAMED
+-Ddbvis.home=C:\Program Files\DbVisualizer\
+-Dexe4j.consoleCodepage=cp0
+-Dexe4j.isInstall4j=true
+-Dexe4j.moduleName=C:\Program Files\DbVisualizer\dbvis.exe
+-Dexe4j.semaphoreName=Local\c:_program_files_dbvisualizer_dbvis.exe
+-Dexe4j.tempDir=
+-Dexe4j.unextractedPosition=0
+-Dinstall4j.launcherId=2
+-Dinstall4j.swt=false
+-Djava.library.path=c:\program files\dbvisualizer\jre\bin;c:\program files\dbvisualizer\jre\bin;C:\Program Files\DbVisualizer\.install4j\..\.install4j;C:\Program Files\DbVisualizer\.install4j\..\.install4j\user;c:\program files\dbvisualizer\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\khatr\AppData\Local\Microsoft\WindowsApps;C:\Users\khatr\AppData\Roaming\npm;C:\Users\khatr\AppData\Local\Programs\Microsoft VS Code\bin;
+-Dsun.locale.formatasdefault=true
+-XX:StringTableSize=1000003
+-Xmx2048m
+2022-11-21 18:41:17.330 INFO   639 [AWT-EventQueue-0 - x.j] Cleaning any old driver files
+2022-11-21 18:41:17.334 INFO   639 [AWT-EventQueue-0 - x.j] Finished cleaning old driver dirs. Time: 4ms
+2022-11-21 18:41:17.484 INFO   639 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The TNS_ADMIN environment variable is not set. Trying ORACLE_HOME
+2022-11-21 18:41:17.485 INFO   639 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The ORACLE_HOME environment variable is not set. TNS names cannot be used for Oracle connections
+2022-11-21 18:41:18.069 INFO   639 [AWT-EventQueue-0 - pb.f] Existing beans: 'G1 Old Gen' max: 2147483648
+2022-11-21 18:41:18.076 INFO   639 [AWT-EventQueue-0 - pb.f] Memory monitor initialized for MxBean: 'G1 Old Gen' Notification threshold: 41943040 Low memory threshold: 25165824 release buffer: 1048576 Usage threshold: 2105540608
+2022-11-21 18:41:30.447 INFO   639 [ExecutorRunner-pool-4-thread-1 - c.d] Migration not needed since C:\Users\khatr\.dbvis\config140 was not created during session
+2022-11-21 18:41:31.662 INFO   639 [AWT-EventQueue-0 - DbVisualizerGUI.initialize] Startup time: 17.688
+2022-11-21 18:41:32.242 INFO   639 [AWT-EventQueue-0 - c.i] Load workspace time: 0.236
+2022-11-21 18:41:32.243 INFO   639 [AWT-EventQueue-0 - pb.e] Workspace auto saver thread started. Interval: 30 sec
+2022-11-21 18:41:32.246 INFO   639 [AWT-EventQueue-0 - ib.c] Connection keep-alive thread started. Interval: 10 sec
+2022-11-21 18:41:32.249 INFO   639 [AWT-EventQueue-0 - x.f] Workspace file modification monitor thread started. Interval: 30 sec
+2022-11-21 18:42:40.166 INFO   639 [AWT-EventQueue-0 - b.f] Wrote user properties files. Time: 0.320. Success files: 10. Failed: 0
+2022-11-21 18:42:40.167 INFO   639 [AWT-EventQueue-0 - DbVisualizerGUI.b] Shutdown time: 0.685
+2022-11-21 18:42:40.168 INFO   639 [AWT-EventQueue-0 - DbVisualizerGUI.b] DbVisualizer: STOPPED. ExitType: NORMAL
+
+2022-12-01 16:59:49.882 INFO   195 [AWT-EventQueue-0 - e.initialize] DbVisualizer: STARTING
+2022-12-01 16:59:49.937 CONFIG 195 [AWT-EventQueue-0 - e.b] Product: DbVisualizer 14.0.1 (build: 3540)
+2022-12-01 16:59:49.937 CONFIG 195 [AWT-EventQueue-0 - e.b] OS: Windows 10
+2022-12-01 16:59:49.938 CONFIG 195 [AWT-EventQueue-0 - e.b] OS Version: 10.0
+2022-12-01 16:59:49.939 CONFIG 195 [AWT-EventQueue-0 - e.b] OS Arch: amd64
+2022-12-01 16:59:49.940 CONFIG 195 [AWT-EventQueue-0 - e.b] Java Version: 17.0.4.1
+2022-12-01 16:59:49.941 CONFIG 195 [AWT-EventQueue-0 - e.b] Java VM: OpenJDK 64-Bit Server VM
+2022-12-01 16:59:49.941 CONFIG 195 [AWT-EventQueue-0 - e.b] Java Vendor: Eclipse Adoptium
+2022-12-01 16:59:49.942 CONFIG 195 [AWT-EventQueue-0 - e.b] Java Home: c:\program files\dbvisualizer\jre
+2022-12-01 16:59:49.942 CONFIG 195 [AWT-EventQueue-0 - e.b] DbVis Home: C:\Program Files\DbVisualizer
+2022-12-01 16:59:49.943 CONFIG 195 [AWT-EventQueue-0 - e.b] User Home: C:\Users\khatr
+2022-12-01 16:59:49.943 CONFIG 195 [AWT-EventQueue-0 - e.b] PrefsDir: C:\Users\khatr\.dbvis
+2022-12-01 16:59:49.944 CONFIG 195 [AWT-EventQueue-0 - e.b] SessionId: 195
+2022-12-01 16:59:49.956 CONFIG 195 [AWT-EventQueue-0 - e.b] Java Arguments: <none>
+2022-12-01 16:59:49.957 CONFIG 195 [AWT-EventQueue-0 - e.b] Java Properties: 
+--add-exports=java.base/sun.security.action=ALL-UNNAMED
+--add-exports=java.desktop/sun.awt.image=ALL-UNNAMED
+--add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing.table=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing=ALL-UNNAMED
+--add-exports=java.xml/com.sun.org.apache.xerces.internal.parsers=ALL-UNNAMED
+--add-opens=java.base/java.nio=ALL-UNNAMED
+--add-opens=java.base/java.util=ALL-UNNAMED
+--add-opens=java.desktop/java.awt.event=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing=ALL-UNNAMED
+--add-opens=java.desktop/sun.awt.image=ALL-UNNAMED
+--add-opens=java.desktop/sun.awt=ALL-UNNAMED
+--add-opens=java.xml/com.sun.org.apache.xerces.internal.util=ALL-UNNAMED
+-Ddbvis.home=C:\Program Files\DbVisualizer\
+-Dexe4j.consoleCodepage=cp0
+-Dexe4j.isInstall4j=true
+-Dexe4j.moduleName=C:\Program Files\DbVisualizer\dbvis.exe
+-Dexe4j.semaphoreName=Local\c:_program_files_dbvisualizer_dbvis.exe
+-Dexe4j.tempDir=
+-Dexe4j.unextractedPosition=0
+-Dinstall4j.launcherId=2
+-Dinstall4j.swt=false
+-Djava.library.path=c:\program files\dbvisualizer\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\khatr\AppData\Local\Microsoft\WindowsApps;C:\Users\khatr\AppData\Roaming\npm;C:\Users\khatr\AppData\Local\Programs\Microsoft VS Code\bin;
+-Dsun.locale.formatasdefault=true
+-XX:StringTableSize=1000003
+-Xmx2048m
+2022-12-01 16:59:54.509 INFO   195 [AWT-EventQueue-0 - x.j] Cleaning any old driver files
+2022-12-01 16:59:54.512 INFO   195 [AWT-EventQueue-0 - x.j] Finished cleaning old driver dirs. Time: 3ms
+2022-12-01 16:59:54.694 INFO   195 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The TNS_ADMIN environment variable is not set. Trying ORACLE_HOME
+2022-12-01 16:59:54.694 INFO   195 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The ORACLE_HOME environment variable is not set. TNS names cannot be used for Oracle connections
+2022-12-01 16:59:55.333 INFO   195 [AWT-EventQueue-0 - pb.f] Existing beans: 'G1 Old Gen' max: 2147483648
+2022-12-01 16:59:55.340 INFO   195 [AWT-EventQueue-0 - pb.f] Memory monitor initialized for MxBean: 'G1 Old Gen' Notification threshold: 41943040 Low memory threshold: 25165824 release buffer: 1048576 Usage threshold: 2105540608
+2022-12-01 17:00:08.889 INFO   195 [ExecutorRunner-pool-4-thread-1 - c.d] Migration not needed since C:\Users\khatr\.dbvis\config140 was not created during session
+2022-12-01 17:00:10.006 INFO   195 [AWT-EventQueue-0 - DbVisualizerGUI.initialize] Startup time: 21.492
+2022-12-01 17:00:10.788 INFO   195 [AWT-EventQueue-0 - c.i] Load workspace time: 0.443
+2022-12-01 17:00:10.802 INFO   195 [AWT-EventQueue-0 - pb.e] Workspace auto saver thread started. Interval: 30 sec
+2022-12-01 17:00:10.805 INFO   195 [AWT-EventQueue-0 - ib.c] Connection keep-alive thread started. Interval: 10 sec
+2022-12-01 17:00:10.811 INFO   195 [AWT-EventQueue-0 - x.f] Workspace file modification monitor thread started. Interval: 30 sec
+2022-12-01 17:00:44.367 INFO   195 [AWT-EventQueue-0 - b.f] Wrote user properties files. Time: 0.285. Success files: 10. Failed: 0
+2022-12-01 17:01:02.218 INFO   195 [AWT-EventQueue-0 - b.f] Wrote user properties files. Time: 0.206. Success files: 10. Failed: 0
+2022-12-01 17:17:17.554 INFO   195 [ExecutorRunner-pool-4-thread-6 - b.ug] Could not get constraints info for: 'dim_customer'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.e.b(Z:401)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1471)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-12-01 17:17:17.703 INFO   195 [ExecutorRunner-pool-4-thread-6 - b.ug] Could not get constraints info for: 'fact_sales'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.e.b(Z:627)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1471)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-12-01 17:20:26.148 INFO   195 [ExecutorRunner-pool-4-thread-7 - b.ug] Could not get constraints info for: 'dim_customer'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.e.b(Z:401)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1471)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-12-01 17:20:26.243 INFO   195 [ExecutorRunner-pool-4-thread-7 - b.ug] Could not get constraints info for: 'fact_sales'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.e.b(Z:627)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1471)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-12-01 17:20:26.314 INFO   195 [ExecutorRunner-pool-4-thread-7 - b.ug] Could not get constraints info for: 'dim_product'
+ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+
+[Exception Chain]:
+1:        ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+2: Root-> (PSQLException) [Code:0, SQL State: 42601] ERROR: trailing junk after parameter at or near "$1A"
+            Position: 626
+
+[Stack trace]:
+com.onseven.dbvis.m.f.s: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at com.onseven.dbvis.m.f.l.we(Z:1179)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.cb.ud(Z:1877)
+	at com.onseven.dbvis.ab.c.c.c(Z:1797)
+	at com.onseven.dbvis.db.hb.h.fb(Z:3096)
+	at com.onseven.dbvis.db.hb.h.d(Z:2038)
+	at com.onseven.dbvis.nb.d.b.ug(Z:2166)
+	at com.onseven.dbvis.nb.d.b.wg(Z:531)
+	at com.onseven.dbvis.nb.d.b.b(Z:2052)
+	at com.onseven.dbvis.nb.d.b.<init>(Z:3196)
+	at com.onseven.dbvis.nb.e.d(Z:384)
+	at com.onseven.dbvis.nb.e.c(Z:1657)
+	at com.onseven.dbvis.nb.e.b(Z:401)
+	at com.onseven.dbvis.nb.j$_h.xg(Z:1471)
+	at com.onseven.dbvis.nb.j$_h.we(Z:266)
+	at com.onseven.dbvis.m.f.cb.oe(Z:2713)
+	at com.onseven.dbvis.m.f.n.c(Z:1374)
+	at com.onseven.dbvis.m.f.n.doInBackground(Z:1521)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: trailing junk after parameter at or near "$1A"
+  Position: 626
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:177)
+	at jdk.internal.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.onseven.dbvis.jdbc.b.c.b(Z:2136)
+	at com.onseven.dbvis.jdbc.b.g$_b.call(Z:618)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+2022-12-01 20:08:23.971 INFO   195 [AWT-EventQueue-0 - b.f] Wrote user properties files. Time: 0.138. Success files: 10. Failed: 0
+2022-12-01 20:08:23.972 INFO   195 [AWT-EventQueue-0 - DbVisualizerGUI.b] Shutdown time: 0.317
+2022-12-01 20:08:23.972 INFO   195 [AWT-EventQueue-0 - DbVisualizerGUI.b] DbVisualizer: STOPPED. ExitType: NORMAL
+
+2022-12-12 11:17:15.554 INFO   409 [AWT-EventQueue-0 - e.initialize] DbVisualizer: STARTING
+2022-12-12 11:17:15.618 CONFIG 409 [AWT-EventQueue-0 - e.b] Product: DbVisualizer 14.0.1 (build: 3540)
+2022-12-12 11:17:15.619 CONFIG 409 [AWT-EventQueue-0 - e.b] OS: Windows 10
+2022-12-12 11:17:15.620 CONFIG 409 [AWT-EventQueue-0 - e.b] OS Version: 10.0
+2022-12-12 11:17:15.620 CONFIG 409 [AWT-EventQueue-0 - e.b] OS Arch: amd64
+2022-12-12 11:17:15.621 CONFIG 409 [AWT-EventQueue-0 - e.b] Java Version: 17.0.4.1
+2022-12-12 11:17:15.622 CONFIG 409 [AWT-EventQueue-0 - e.b] Java VM: OpenJDK 64-Bit Server VM
+2022-12-12 11:17:15.622 CONFIG 409 [AWT-EventQueue-0 - e.b] Java Vendor: Eclipse Adoptium
+2022-12-12 11:17:15.623 CONFIG 409 [AWT-EventQueue-0 - e.b] Java Home: c:\program files\dbvisualizer\jre
+2022-12-12 11:17:15.623 CONFIG 409 [AWT-EventQueue-0 - e.b] DbVis Home: C:\Program Files\DbVisualizer
+2022-12-12 11:17:15.624 CONFIG 409 [AWT-EventQueue-0 - e.b] User Home: C:\Users\khatr
+2022-12-12 11:17:15.624 CONFIG 409 [AWT-EventQueue-0 - e.b] PrefsDir: C:\Users\khatr\.dbvis
+2022-12-12 11:17:15.625 CONFIG 409 [AWT-EventQueue-0 - e.b] SessionId: 409
+2022-12-12 11:17:15.639 CONFIG 409 [AWT-EventQueue-0 - e.b] Java Arguments: "E:\Users\Poonam Khatri\Downloads\fuzzymatching.sql"
+2022-12-12 11:17:15.639 CONFIG 409 [AWT-EventQueue-0 - e.b] Java Properties: 
+--add-exports=java.base/sun.security.action=ALL-UNNAMED
+--add-exports=java.desktop/sun.awt.image=ALL-UNNAMED
+--add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing.table=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing=ALL-UNNAMED
+--add-exports=java.xml/com.sun.org.apache.xerces.internal.parsers=ALL-UNNAMED
+--add-opens=java.base/java.nio=ALL-UNNAMED
+--add-opens=java.base/java.util=ALL-UNNAMED
+--add-opens=java.desktop/java.awt.event=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing=ALL-UNNAMED
+--add-opens=java.desktop/sun.awt.image=ALL-UNNAMED
+--add-opens=java.desktop/sun.awt=ALL-UNNAMED
+--add-opens=java.xml/com.sun.org.apache.xerces.internal.util=ALL-UNNAMED
+-Ddbvis.home=C:\Program Files\DbVisualizer\
+-Dexe4j.consoleCodepage=cp0
+-Dexe4j.isInstall4j=true
+-Dexe4j.moduleName=C:\Program Files\DbVisualizer\dbvis.exe
+-Dexe4j.semaphoreName=Local\c:_program_files_dbvisualizer_dbvis.exe
+-Dexe4j.tempDir=
+-Dexe4j.unextractedPosition=0
+-Dinstall4j.launcherId=2
+-Dinstall4j.swt=false
+-Djava.library.path=c:\program files\dbvisualizer\jre\bin;C:\Program Files (x86)\Google\Chrome\Application;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\khatr\AppData\Local\Microsoft\WindowsApps;C:\Users\khatr\AppData\Roaming\npm;C:\Users\khatr\AppData\Local\Programs\Microsoft VS Code\bin;
+-Dsun.locale.formatasdefault=true
+-XX:StringTableSize=1000003
+-Xmx2048m
+2022-12-12 11:17:19.845 INFO   409 [AWT-EventQueue-0 - x.j] Cleaning any old driver files
+2022-12-12 11:17:19.851 INFO   409 [AWT-EventQueue-0 - x.j] Finished cleaning old driver dirs. Time: 4ms
+2022-12-12 11:17:20.025 INFO   409 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The TNS_ADMIN environment variable is not set. Trying ORACLE_HOME
+2022-12-12 11:17:20.026 INFO   409 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The ORACLE_HOME environment variable is not set. TNS names cannot be used for Oracle connections
+2022-12-12 11:17:20.721 INFO   409 [AWT-EventQueue-0 - pb.f] Existing beans: 'G1 Old Gen' max: 2147483648
+2022-12-12 11:17:20.731 INFO   409 [AWT-EventQueue-0 - pb.f] Memory monitor initialized for MxBean: 'G1 Old Gen' Notification threshold: 41943040 Low memory threshold: 25165824 release buffer: 1048576 Usage threshold: 2105540608
+2022-12-12 11:17:33.952 INFO   409 [ExecutorRunner-pool-4-thread-1 - c.d] Migration not needed since C:\Users\khatr\.dbvis\config140 was not created during session
+2022-12-12 11:17:35.115 INFO   409 [AWT-EventQueue-0 - DbVisualizerGUI.initialize] Startup time: 20.909
+2022-12-12 11:17:35.823 INFO   409 [AWT-EventQueue-0 - c.i] Load workspace time: 0.429
+2022-12-12 11:17:36.349 INFO   409 [AWT-EventQueue-0 - pb.e] Workspace auto saver thread started. Interval: 30 sec
+2022-12-12 11:17:36.352 INFO   409 [AWT-EventQueue-0 - ib.c] Connection keep-alive thread started. Interval: 10 sec
+2022-12-12 11:17:36.357 INFO   409 [AWT-EventQueue-0 - x.f] Workspace file modification monitor thread started. Interval: 30 sec
+2022-12-12 11:18:18.019 INFO   409 [AWT-EventQueue-0 - b.f] Wrote user properties files. Time: 0.297. Success files: 10. Failed: 0
+2022-12-12 11:18:18.019 INFO   409 [AWT-EventQueue-0 - DbVisualizerGUI.b] Shutdown time: 0.633
+2022-12-12 11:18:18.020 INFO   409 [AWT-EventQueue-0 - DbVisualizerGUI.b] DbVisualizer: STOPPED. ExitType: NORMAL
+
+2023-01-30 14:48:35.864 INFO   737 [AWT-EventQueue-0 - e.initialize] DbVisualizer: STARTING
+2023-01-30 14:48:35.903 CONFIG 737 [AWT-EventQueue-0 - e.b] Product: DbVisualizer 14.0.1 (build: 3540)
+2023-01-30 14:48:35.903 CONFIG 737 [AWT-EventQueue-0 - e.b] OS: Windows 10
+2023-01-30 14:48:35.904 CONFIG 737 [AWT-EventQueue-0 - e.b] OS Version: 10.0
+2023-01-30 14:48:35.904 CONFIG 737 [AWT-EventQueue-0 - e.b] OS Arch: amd64
+2023-01-30 14:48:35.904 CONFIG 737 [AWT-EventQueue-0 - e.b] Java Version: 17.0.4.1
+2023-01-30 14:48:35.904 CONFIG 737 [AWT-EventQueue-0 - e.b] Java VM: OpenJDK 64-Bit Server VM
+2023-01-30 14:48:35.904 CONFIG 737 [AWT-EventQueue-0 - e.b] Java Vendor: Eclipse Adoptium
+2023-01-30 14:48:35.905 CONFIG 737 [AWT-EventQueue-0 - e.b] Java Home: c:\program files\dbvisualizer\jre
+2023-01-30 14:48:35.905 CONFIG 737 [AWT-EventQueue-0 - e.b] DbVis Home: C:\Program Files\DbVisualizer
+2023-01-30 14:48:35.905 CONFIG 737 [AWT-EventQueue-0 - e.b] User Home: C:\Users\khatr
+2023-01-30 14:48:35.905 CONFIG 737 [AWT-EventQueue-0 - e.b] PrefsDir: C:\Users\khatr\.dbvis
+2023-01-30 14:48:35.905 CONFIG 737 [AWT-EventQueue-0 - e.b] SessionId: 737
+2023-01-30 14:48:35.912 CONFIG 737 [AWT-EventQueue-0 - e.b] Java Arguments: "E:\Users\Poonam Khatri\Downloads\dvdrental_exercise.sql"
+2023-01-30 14:48:35.912 CONFIG 737 [AWT-EventQueue-0 - e.b] Java Properties: 
+--add-exports=java.base/sun.security.action=ALL-UNNAMED
+--add-exports=java.desktop/sun.awt.image=ALL-UNNAMED
+--add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing.table=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing=ALL-UNNAMED
+--add-exports=java.xml/com.sun.org.apache.xerces.internal.parsers=ALL-UNNAMED
+--add-opens=java.base/java.nio=ALL-UNNAMED
+--add-opens=java.base/java.util=ALL-UNNAMED
+--add-opens=java.desktop/java.awt.event=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing=ALL-UNNAMED
+--add-opens=java.desktop/sun.awt.image=ALL-UNNAMED
+--add-opens=java.desktop/sun.awt=ALL-UNNAMED
+--add-opens=java.xml/com.sun.org.apache.xerces.internal.util=ALL-UNNAMED
+-Ddbvis.home=C:\Program Files\DbVisualizer\
+-Dexe4j.consoleCodepage=cp0
+-Dexe4j.isInstall4j=true
+-Dexe4j.moduleName=C:\Program Files\DbVisualizer\dbvis.exe
+-Dexe4j.semaphoreName=Local\c:_program_files_dbvisualizer_dbvis.exe
+-Dexe4j.tempDir=
+-Dexe4j.unextractedPosition=0
+-Dinstall4j.launcherId=2
+-Dinstall4j.swt=false
+-Djava.library.path=c:\program files\dbvisualizer\jre\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\khatr\AppData\Local\Microsoft\WindowsApps;C:\Users\khatr\AppData\Roaming\npm;C:\Users\khatr\AppData\Local\Programs\Microsoft VS Code\bin;
+-Dsun.locale.formatasdefault=true
+-XX:StringTableSize=1000003
+-Xmx2048m
+2023-01-30 14:48:38.071 INFO   737 [AWT-EventQueue-0 - x.j] Cleaning any old driver files
+2023-01-30 14:48:38.072 INFO   737 [AWT-EventQueue-0 - x.j] Finished cleaning old driver dirs. Time: 1ms
+2023-01-30 14:48:38.182 INFO   737 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The TNS_ADMIN environment variable is not set. Trying ORACLE_HOME
+2023-01-30 14:48:38.182 INFO   737 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The ORACLE_HOME environment variable is not set. TNS names cannot be used for Oracle connections
+2023-01-30 14:48:38.627 INFO   737 [AWT-EventQueue-0 - pb.f] Existing beans: 'G1 Old Gen' max: 2147483648
+2023-01-30 14:48:38.631 INFO   737 [AWT-EventQueue-0 - pb.f] Memory monitor initialized for MxBean: 'G1 Old Gen' Notification threshold: 41943040 Low memory threshold: 25165824 release buffer: 1048576 Usage threshold: 2105540608
+2023-01-30 14:48:44.601 INFO   737 [ExecutorRunner-pool-4-thread-1 - c.d] Migration not needed since C:\Users\khatr\.dbvis\config140 was not created during session
+2023-01-30 14:48:45.171 INFO   737 [AWT-EventQueue-0 - DbVisualizerGUI.initialize] Startup time: 10.081
+2023-01-30 14:48:45.729 INFO   737 [AWT-EventQueue-0 - c.i] Load workspace time: 0.380
+2023-01-30 14:48:45.924 INFO   737 [AWT-EventQueue-0 - pb.e] Workspace auto saver thread started. Interval: 30 sec
+2023-01-30 14:48:45.926 INFO   737 [AWT-EventQueue-0 - ib.c] Connection keep-alive thread started. Interval: 10 sec
+2023-01-30 14:48:45.930 INFO   737 [AWT-EventQueue-0 - x.f] Workspace file modification monitor thread started. Interval: 30 sec
+2023-02-04 18:07:41.698 INFO   830 [AWT-EventQueue-0 - e.initialize] DbVisualizer: STARTING
+2023-02-04 18:07:41.758 CONFIG 830 [AWT-EventQueue-0 - e.b] Product: DbVisualizer 14.0.1 (build: 3540)
+2023-02-04 18:07:41.759 CONFIG 830 [AWT-EventQueue-0 - e.b] OS: Windows 10
+2023-02-04 18:07:41.760 CONFIG 830 [AWT-EventQueue-0 - e.b] OS Version: 10.0
+2023-02-04 18:07:41.760 CONFIG 830 [AWT-EventQueue-0 - e.b] OS Arch: amd64
+2023-02-04 18:07:41.761 CONFIG 830 [AWT-EventQueue-0 - e.b] Java Version: 17.0.4.1
+2023-02-04 18:07:41.762 CONFIG 830 [AWT-EventQueue-0 - e.b] Java VM: OpenJDK 64-Bit Server VM
+2023-02-04 18:07:41.763 CONFIG 830 [AWT-EventQueue-0 - e.b] Java Vendor: Eclipse Adoptium
+2023-02-04 18:07:41.764 CONFIG 830 [AWT-EventQueue-0 - e.b] Java Home: c:\program files\dbvisualizer\jre
+2023-02-04 18:07:41.764 CONFIG 830 [AWT-EventQueue-0 - e.b] DbVis Home: C:\Program Files\DbVisualizer
+2023-02-04 18:07:41.764 CONFIG 830 [AWT-EventQueue-0 - e.b] User Home: C:\Users\khatr
+2023-02-04 18:07:41.765 CONFIG 830 [AWT-EventQueue-0 - e.b] PrefsDir: C:\Users\khatr\.dbvis
+2023-02-04 18:07:41.766 CONFIG 830 [AWT-EventQueue-0 - e.b] SessionId: 830
+2023-02-04 18:07:41.780 CONFIG 830 [AWT-EventQueue-0 - e.b] Java Arguments: "E:\Users\Poonam Khatri\Downloads\dvdrental_exercise.sql"
+2023-02-04 18:07:41.781 CONFIG 830 [AWT-EventQueue-0 - e.b] Java Properties: 
+--add-exports=java.base/sun.security.action=ALL-UNNAMED
+--add-exports=java.desktop/sun.awt.image=ALL-UNNAMED
+--add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing.table=ALL-UNNAMED
+--add-exports=java.desktop/sun.swing=ALL-UNNAMED
+--add-exports=java.xml/com.sun.org.apache.xerces.internal.parsers=ALL-UNNAMED
+--add-opens=java.base/java.nio=ALL-UNNAMED
+--add-opens=java.base/java.util=ALL-UNNAMED
+--add-opens=java.desktop/java.awt.event=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED
+--add-opens=java.desktop/javax.swing=ALL-UNNAMED
+--add-opens=java.desktop/sun.awt.image=ALL-UNNAMED
+--add-opens=java.desktop/sun.awt=ALL-UNNAMED
+--add-opens=java.xml/com.sun.org.apache.xerces.internal.util=ALL-UNNAMED
+-Ddbvis.home=C:\Program Files\DbVisualizer\
+-Dexe4j.consoleCodepage=cp0
+-Dexe4j.isInstall4j=true
+-Dexe4j.moduleName=C:\Program Files\DbVisualizer\dbvis.exe
+-Dexe4j.semaphoreName=Local\c:_program_files_dbvisualizer_dbvis.exe
+-Dexe4j.tempDir=
+-Dexe4j.unextractedPosition=0
+-Dinstall4j.launcherId=2
+-Dinstall4j.swt=false
+-Djava.library.path=c:\program files\dbvisualizer\jre\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\khatr\AppData\Local\Microsoft\WindowsApps;C:\Users\khatr\AppData\Roaming\npm;C:\Users\khatr\AppData\Local\Programs\Microsoft VS Code\bin;
+-Dsun.locale.formatasdefault=true
+-XX:StringTableSize=1000003
+-Xmx2048m
+2023-02-04 18:07:46.344 INFO   830 [AWT-EventQueue-0 - x.j] Cleaning any old driver files
+2023-02-04 18:07:46.348 INFO   830 [AWT-EventQueue-0 - x.j] Finished cleaning old driver dirs. Time: 3ms
+2023-02-04 18:07:46.524 INFO   830 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The TNS_ADMIN environment variable is not set. Trying ORACLE_HOME
+2023-02-04 18:07:46.525 INFO   830 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The ORACLE_HOME environment variable is not set. TNS names cannot be used for Oracle connections
+2023-02-04 18:07:47.157 INFO   830 [AWT-EventQueue-0 - pb.f] Existing beans: 'G1 Old Gen' max: 2147483648
+2023-02-04 18:07:47.164 INFO   830 [AWT-EventQueue-0 - pb.f] Memory monitor initialized for MxBean: 'G1 Old Gen' Notification threshold: 41943040 Low memory threshold: 25165824 release buffer: 1048576 Usage threshold: 2105540608
+2023-02-04 18:08:00.097 INFO   830 [ExecutorRunner-pool-4-thread-1 - c.d] Migration not needed since C:\Users\khatr\.dbvis\config140 was not created during session
+2023-02-04 18:08:01.254 INFO   830 [AWT-EventQueue-0 - DbVisualizerGUI.initialize] Startup time: 21.037
+2023-02-04 18:08:02.668 INFO   830 [AWT-EventQueue-0 - c.i] Load workspace time: 1.101
+2023-02-04 18:08:02.691 INFO   830 [AWT-EventQueue-0 - pb.e] Workspace auto saver thread started. Interval: 30 sec
+2023-02-04 18:08:02.694 INFO   830 [AWT-EventQueue-0 - ib.c] Connection keep-alive thread started. Interval: 10 sec
+2023-02-04 18:08:02.700 INFO   830 [AWT-EventQueue-0 - x.f] Workspace file modification monitor thread started. Interval: 30 sec
+2023-02-04 18:24:37.084 INFO   830 [AWT-EventQueue-0 - b.f] Wrote user properties files. Time: 0.352. Success files: 10. Failed: 0
+2023-02-04 18:24:37.084 INFO   830 [AWT-EventQueue-0 - DbVisualizerGUI.b] Shutdown time: 0.731
+2023-02-04 18:24:37.085 INFO   830 [AWT-EventQueue-0 - DbVisualizerGUI.b] DbVisualizer: STOPPED. ExitType: NORMAL
+
