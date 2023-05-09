@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Titanic Page</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+</head>
+
+<body>
+    <main>
+        <h1>Titanic Dataset</h1>
+        <p>Here are the first 5 rows of the Titanic dataset:</p>
+        {{ table|safe }}
+        <img src="{{ url_for('static', filename='images/titanic.png') }}" alt="Titanic Chart">
+    </main>
+    
+    {% block content %}{% endblock %}
+
+    <footer>
+        <p>Created by Your Name</p>
+    </footer>
+</body>
+
+</html>
+
+
+
+
